@@ -1,0 +1,24 @@
+<nav>
+  <ul>
+    {% for item in site.data.navigation %}
+      {% if item.subnav %}
+      <li class="dropdown">
+        <a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="focus" {% endif %}>
+        {{ item.name }}
+        </a>
+        <div class="dropdown-content">
+          {% for subitem in item.subnav %}
+            <a href="{{ subitem.link | relative_url }}" {% if page.url == subitem.link %} class="focus" {% endif %}>
+              {{ subitem.name }}
+            </a>
+          {% endfor %}
+        </div>
+      </li>
+      {% else %}
+      <li><a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="focus" {% endif %}>
+        {{ item.name }}
+      </a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

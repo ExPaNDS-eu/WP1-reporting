@@ -1,0 +1,32 @@
+#toggled-pebs, #toggled-pebs ul {
+  list-style-type: none;
+}
+
+#toggled-pebs {
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: $color-strong;
+  display: inline-block;
+  margin-right: $padding-std;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}

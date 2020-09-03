@@ -1,0 +1,48 @@
+# after changes to this file, you need to restart the jekyll server (ctrl-c + bundle exec jekyll serve)
+collections:
+  reports:
+  pebs:
+  reports-wp:
+    output: true
+  pebs-wp:
+    output: true
+
+# set defaults for layouts (except the ones in _layouts)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+  - scope: # reports collection (in _reports)
+      path: "" #root
+      type: "reports"
+    values:
+      layout: "report_template"
+
+  - scope:
+      path: ""
+      type: "pebs"
+    values:
+      layout: "peb_template"
+
+  - scope:
+      path: ""
+      type: "pebs-wp"
+    values:
+      layout: "peb_wp_template"
+
+
+# the following does not work (nice try):
+  - scope:
+      path: ""
+      type: "data.tasks"
+    values:
+      start-date: 2019-09-01
+      end-date: 2022-08-31
+
+
+# configuration Variables
+# baseurl: ""
+# url: "/"
+# url: "localhost:4000"

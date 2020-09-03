@@ -1,0 +1,7 @@
+# ignore site built locally by jekyll
+_site
+# ignore jekyll cache
+.jekyll-cache
+# ignore local Gemfile
+Gemfile
+Gemfile.lock

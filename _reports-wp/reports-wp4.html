@@ -1,0 +1,10 @@
+---
+title: WP4 reports
+---
+
+{% for report in site.reports %}
+  {% if report.wp == "4" %}
+    <hr>
+    {{ report }}
+  {% endif %}
+{% endfor %}

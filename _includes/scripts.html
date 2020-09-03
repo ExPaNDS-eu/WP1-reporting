@@ -1,0 +1,33 @@
+
+<script>
+
+  //from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
+  var mybutton = document.getElementById("scrollBtn");
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  //from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_treeview
+  var toggler = document.getElementsByClassName("caret");
+  var i;
+
+  for (i = 0; i < toggler.length; i++) {
+    toggler[i].addEventListener("click", function() {
+      this.parentElement.querySelector(".nested").classList.toggle("active");
+      this.classList.toggle("caret-down");
+    });
+  }
+
+</script>

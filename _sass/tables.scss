@@ -1,0 +1,43 @@
+// tables
+table {
+  border-collapse: collapse;
+  margin: $padding-big auto;
+  clear: both;
+}
+
+th, td {
+  padding-left: $padding-std;
+  padding-right: $padding-std;
+  text-align: justify;
+  border: $border-std solid $color-std;
+}
+
+  // deliverables and milestones tables
+.del tr:hover {
+  background-color: $color-fade;
+}
+
+tr.delivered {
+  background-color: $color-green;
+}
+
+tr.late {
+  background-color: $color-red;
+}
+
+  // tasks tables
+.task {
+  th, td {
+  border: none;
+  border-top: $border-std solid $color-std;
+  border-bottom: $border-std solid $color-std;
+  }
+
+  tr th:first-child, tr td:first-child {
+    border-left: $border-std solid $color-std;
+  }
+
+  tr th:last-child, tr td:last-child {
+    border-right: $border-std solid $color-std;
+  }
+}

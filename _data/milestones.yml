@@ -1,0 +1,146 @@
+# called items with site.data.milestones
+- id: 1
+  name: Kick-off meeting
+  partner: DESY
+  date: 2019-09-11
+
+- id: 2
+  name: Management structure implemented
+  partner: DESY
+  date: 2019-10-31
+
+- id: 3
+  name: Report on quality assurance, risks and contingency plan
+  partner: DESY
+  date: 2020-02-05
+
+- id: 4
+  name: General architecture ready
+  partner: DESY
+  date: 2020-03-05
+
+- id: 5
+  name: First all-hands meeting organised
+  partner: DESY
+  date: 2020-11-30 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+
+- id: 6
+  name: Successful completion of mid-term
+  partner: DESY
+  date: 2021-02-28
+
+- id: 7
+  name: Second all-hands meeting organised
+  partner: DESY
+  date: 2021-04-30
+
+- id: 8
+  name: Third all-hands meeting organised
+  partner: DESY
+  date: 2022-02-28
+
+- id: 9
+  name: Successful completion of final review
+  partner: DESY
+  date: 2022-08-31
+
+- id: 10
+  name: Production of draft FAIR data framework
+  partner: UKRI
+  date: 2020-11-30 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+
+- id: 11
+  name: Production of final FAIR data framework
+  partner: UKRI
+  date: 2022-06-30
+
+- id: 12
+  name: Metadata catalogue release
+  partner: PSI
+  date: 2021-08-31
+
+- id: 13
+  name: Metadata catalogue as EOSC service
+  partner: PSI
+  date: 2022-02-28
+
+- id: 14
+  name: Analysis services prototypes
+  partner: DESY
+  date: 2021-08-31
+
+- id: 15
+  name: Analysis services for EOSC
+  partner: DESY
+  date: 2022-06-30
+
+- id: 16
+  name: First (pilot) national training event organised and performed
+  partner: SOLEIL
+  date: 2021-08-31
+
+- id: 17
+  name: Training websites and e-platforms online available
+  partner: SOLEIL
+  date: 2022-04-30
+
+- id: 18
+  name: Website
+  partner: Diamond
+  date: 2019-09-16
+
+- id: 19
+  name: Social media strategy
+  partner: Diamond
+  date: 2019-11-29
+
+- id: 20
+  name: Vision and roadmap documents
+  partner: Diamond
+  date: 2020-12-31 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+
+- id: 21
+  name: Reference from community websites
+  partner: Diamond
+  date: 2020-09-30 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+
+- id: 22
+  name: AAAS & ESOF attendance
+  partner: Diamond
+  date: 2021-08-31 #reference: 2020-06-30 / shift accepted by PO on 2020-07-31
+  late: oui
+
+- id: 23
+  name: AAAS & ESOF attendance
+  partner: Diamond
+  date: 2021-06-30
+
+- id: 24
+  name: AAAS & ESOF attendance
+  partner: Diamond
+  date: 2022-06-30
+
+- id: 25
+  name: Collaboration network of communicators in place with regular updates
+  partner: Diamond
+  date: 2020-02-29
+
+- id: 26
+  name: Dedicated European user meeting
+  partner: Diamond
+  date: 2022-07-31
+
+- id: 27
+  name: Standard ExPaNDS information sheet
+  partner: Diamond
+  date: 2020-04-30
+
+- id: 28
+  name: Infographic and KPI presentation
+  partner: Diamond
+  date: 2020-02-29
+
+- id: 29
+  name: Taxonomy strategy
+  partner: Diamond
+  date: 2021-08-31

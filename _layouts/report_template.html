@@ -1,0 +1,100 @@
+---
+---
+
+<img src="https://i2.wp.com/expands.eu/wp-content/uploads/2019/12/cloud-1.png" alt="ExPaNDS cloud" style="float:right; width:45%">
+<h1>{{ page.title | upcase }}</h1>
+<p><strong>Period: </strong> {{ page.start-date | date_to_string }} - {{ page.end-date | date_to_string }}</p>
+<p><strong>Overview since last report: </strong>{{ page.overview }}</p>
+
+<!-- DELIVERABLES with filters from _data/deliverables.yml -->
+<table class="del">
+  <tr>
+    <th colspan="2">Deliverables delivered in period</th>
+    <th>Partner</th>
+    <th>Delivery date</th>
+  </tr>
+  {% assign num = 0 %}
+  {% assign ref_date_1 = page.start-date | date: "%Y-%m-%d" %}
+  {% assign ref_date_2 = page.end-date | date: "%Y-%m-%d" %}
+  {% for del in site.data.deliverables %}
+    {% assign date = del.date | date: "%Y-%m-%d" %}
+    {% assign id = del.id | split: "." %}
+    {% if date <= ref_date_2 and
+      date >= ref_date_1 and
+      id[0] == page.wp %}
+      {% assign num = num | plus: 1 %}
+      <tr>
+        <td>{{ del.id }}</td>
+        <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="(link)"></a>{% endif %}</td>
+        <td>{{ del.partner }}</td>
+        <td>{{ del.date | date_to_string }}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+  {% if num == 0 %}
+    <tr>
+      <td colspan="4">
+        No deliverables in this period
+      </td>
+    </tr>
+  {% endif %}
+</table>
+
+<table class="del">
+  <tr>
+    <th colspan="2">Upcoming deliverables</th>
+    <th>Partner</th>
+    <th>Due date</th>
+  </tr>
+  {% assign num = 0 %}
+  {% capture ref_date_3 %}{{ page.end-date | date: '%s' | plus: 16383263 | date: "%Y-%m-%d" }}{% endcapture %} <!-- 1. convert to Unix timestamp 2. add 6 months + 1 week (1 year = 31556926 in Epoch time (epochconvert.com)) to the ref date 3. convert date into a string -->
+  {% for del in site.data.deliverables %}
+    {% assign date = del.date | date: "%Y-%m-%d" %}
+    {% assign id = del.id | split: "." %}
+    {% if date > ref_date_2 and date < ref_date_3 and id[0] == page.wp %}
+      {% assign num = num | plus: 1 %}
+      <tr>
+        <td>{{ del.id }}</td>
+        <td>{{ del.name }}</td>
+        <td>{{ del.partner }}</td>
+        <td>{{ del.date | date_to_string }}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+  {% if num == 0 %}
+    <tr>
+      <td colspan="4">
+        No deliverables in the next 6 months
+      </td>
+    </tr>
+  {% endif %}
+</table>
+
+<!-- TASKS with filters from _data/tasks.yml and use of _reports.progress and .next-steps arrays -->
+{% assign num = 0 %}
+{% for task in site.data.tasks %}
+  {% assign id = task.id | split: "." %}
+  {% if id[0] == page.wp %}
+    {% if page.progress[num] != "" or page.next-steps[num] != "" %}
+      <table class="task">
+        <tr>
+          <th>T{{ task.id }}</th>
+          <th>{{ task.name }} ({{ task.partner }})</th>
+        </tr>
+        {% if page.progress[num] != "" %}
+          <tr>
+            <td>Progress:</td>
+            <td>{{ page.progress[num] }}</td>
+          </tr>
+        {% endif %}
+        {% if page.next-steps[num] != "" %}
+          <tr>
+            <td>Next steps:</td>
+            <td>{{ page.next-steps[num] }}</td>
+          </tr>
+        {% endif %}
+      </table>
+    {% endif %}
+    {% assign num = num | plus: 1 %}
+  {% endif %}
+{% endfor %}

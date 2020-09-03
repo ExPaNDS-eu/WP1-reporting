@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Project Executive Board meeting notes - extracts for WP{{ page.wp }}</h1>
+{% assign sorted_pebs = site.pebs | reverse %}
+{% for peb in sorted_pebs %}
+
+  <h1>{{ peb.date | date_to_string }}</h1>
+  {% assign wp = page.wp | minus: 1 %}
+  {{ peb.status-quo[wp] }}
+
+{% endfor %}

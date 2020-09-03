@@ -1,0 +1,173 @@
+# called items with site.data.tasks
+# start-date and end-date set only when != default
+# start-date: 2019-09-01
+# end-date: 2022-08-31
+
+- id: 1.1
+  name: Consortium coordination and project administration
+  partner: DESY
+
+- id: 1.2
+  name: Financial management
+  partner: DESY
+
+- id: 1.3
+  name: Project Quality Assurance
+  partner: PSI
+
+- id: 1.4
+  name: Internal communication
+  partner: DESY
+
+- id: 1.5
+  name: Coordination with PaNOSC and EOSC
+  partner: EGI
+
+- id: 1.6
+  name: Sustainability plans
+  partner: PSI
+
+- id: 1.7
+  name: Coordination of boards
+  partner: DESY
+
+- id: 1.8
+  name: DMPs for the project and ethics of handling data
+  partner: DESY
+
+- id: 2.1
+  name: Alignment of policies
+  partner: PSI
+  end-date: 2021-08-31
+
+- id: 2.2
+  name: Data management planning and DMP
+  partner: HZB
+  start-date: 2020-03-01
+
+- id: 2.3
+  name: Mainstreaming of standards for data management
+  partner: ALBA
+  end-date: 2022-02-28
+
+- id: 2.4
+  name: Persistent Identifier infrastructure
+  partner: UKRI
+  start-date: 2020-09-01
+  end-date: 2021-08-31
+
+- id: 2.5
+  name: Quality assurance and certification schemes for data repositories
+  partner: UKRI
+  start-date: 2020-09-01
+  end-date: 2022-02-28
+
+- id: 2.6
+  name: Uptake of FAIR data practices
+  partner: UKRI
+
+- id: 3.1
+  name: Coordinate metadata catalogue services
+  partner: PSI
+  end-date: 2020-08-31
+
+- id: 3.2
+  name: Develop an EU PaN ontology
+  partner: Diamond
+  start-date: 2020-02-01
+  end-date: 2021-08-12
+
+- id: 3.3
+  name: Implement ontologies in metadata catalogues
+  partner: PSI
+  start-date: 2020-08-01
+  end-date: 2022-02-28
+
+- id: 3.4
+  name: Coordinate metadata catalogues and data life cycle
+  partner: HZB
+  start-date: 2021-08-01
+
+- id: 3.5
+  name: Integrate metadata catalogue services into EOSC
+  partner: MaxIV
+  start-date: 2021-08-01
+
+- id: 3.6
+  name: Training material
+  partner: SOLEIL
+  start-date: 2021-08-01
+
+- id: 4.1
+  name: Kick-off meeting
+  partner: DESY
+  end-date: 2020-02-29
+
+- id: 4.2
+  name: Select candidate EOSC data analysis services
+  partner: DESY
+  start-date: 2020-02-01
+  end-date: 2020-08-31
+
+- id: 4.3
+  name: Alignment of PaNOSC services
+  partner: Diamond
+  start-date: 2020-02-01
+  end-date: 2021-08-31
+
+- id: 4.4
+  name: PaN reference data sets
+  partner: UKRI
+  start-date: 2020-08-01
+  end-date: 2021-02-28
+
+- id: 4.5
+  name: Testing and validation framework
+  partner: MaxIV
+  start-date: 2020-06-01 # updated - ref:2020-08-01
+  end-date: 2021-02-28
+
+- id: 4.6
+  name: Prototype data analysis services
+  partner: SOLEIL
+  start-date: 2020-08-01
+  end-date: 2021-08-31
+
+- id: 4.7
+  name: Deploy data analysis services into the EOSC-hub
+  partner: DESY
+  start-date: 2021-02-01
+  end-date: 2022-06-30
+
+- id: 5.1
+  name: Organising at national RIs a series of staff and users training events
+  partner: SOLEIL
+  # start-date updated - ref: 2020-08-01
+
+- id: 5.2
+  name: Evaluation of available e-platforms and provision of a training demonstrator
+  partner: HZDR
+  # start-date updated - ref: 2021-04-01
+  end-date: 2021-08-31
+
+- id: 5.3
+  name: Collection, Preparation and Publishing of Training Material
+  partner: SOLEIL
+  # start-date updated - ref: 2021-04-01
+
+- id: 5.4
+  name: Monitoring and Measuring of training effectiveness
+  partner: HZDR
+  start-date: 2021-08-01
+
+- id: 6.1
+  name: ExPaNDS internal and external communications strategy and delivery
+  partner: Diamond
+
+- id: 6.2
+  name: ExPaNDS' marketing and communication toolbox
+  partner: Diamond
+
+- id: 6.3
+  name: Formulation and dissemination of metrics and refinement of KPIs
+  partner: Diamond

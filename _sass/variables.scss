@@ -1,0 +1,22 @@
+$font-size: 14px;
+$resp-font-size: 1.5vw;
+$padding-std: 0.4vw;
+$padding-small: $padding-std / 2;
+$padding-big: 3 * $padding-std;
+$line-height-std: 1.4;
+$border-std: 1px;
+$margin-std: 90px;
+$margin-small: $margin-std * 0.7;
+$margin-big: 2 * $margin-std;
+$resp-margin-std: 10vw;
+$resp-margin-small: $resp-margin-std * 0.7;
+$resp-margin-big: 2 * $resp-margin-std;
+$max-width: 900px;//75vw;
+$resp-max-width: 900px;
+
+$color-strong: hsl(268, 53%, 37%);
+$color-fade: hsl(268, 53%, 90%);
+$color-std: Black;
+$color-green: hsl(105, 53%, 90%);
+$color-red: hsl(0, 53%, 80%);
+$opacity-std: 0.5;

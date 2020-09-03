@@ -1,0 +1,104 @@
+---
+title: Deliverables
+---
+<div class="box">
+  <p><a href='#sdates'>See the deliverables list sorted by delivery date</a></p>
+</div>
+<div class="box">
+  <p><a href='#swp'>See the deliverables list sorted by WP</a></p>
+</div>
+<div class="box">
+  <p><a href='#spartner'>See the deliverables list sorted by partner</a></p>
+</div>
+
+{% assign date_today = "today" | date: "%Y-%m-%d" %}
+
+<h1 id="sdates">Sorted by date</h1>
+  <table class="del">
+
+  <tr>
+    <th colspan="2">Deliverables</th>
+    <th>Partner</th>
+    <th>Due date</th>
+  </tr>
+
+  {% assign sorted_del = site.data.deliverables | sort: "date" %}
+  {% for del in sorted_del %}
+    {% assign date = del.date | date: "%Y-%m-%d" %}
+    {% if date < date_today %}
+      {% if del.status == 'late' %}
+        <tr class='late'>
+      {% else %}
+        <tr class='delivered'>
+      {% endif %}
+    {% else %}
+      <tr>
+    {% endif %}
+        <td>{{ del.id }}</td>
+        <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="({{ del.link | replace:'https://doi.org/', '' }})"></a>{% endif %}</td>
+        <td>{{ del.partner }}</td>
+        <td>{{ del.date }}</td>
+      </tr>
+  {% endfor %}
+
+</table>
+
+<h1 id="swp">Sorted by WP</h1>
+<table class="del">
+
+  <tr>
+    <th colspan="2">Deliverables</th>
+    <th>Partner</th>
+    <th>Due date</th>
+  </tr>
+
+  {% assign sorted_del = site.data.deliverables | sort: "id" %}
+  {% for del in sorted_del %}
+    {% assign date = del.date | date: "%Y-%m-%d" %}
+    {% if date < date_today %}
+      {% if del.status == 'late' %}
+        <tr class='late'>
+      {% else %}
+        <tr class='delivered'>
+      {% endif %}
+    {% else %}
+      <tr>
+    {% endif %}
+        <td>{{ del.id }}</td>
+        <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="({{ del.link | replace:'https://doi.org/', '' }})"></a>{% endif %}</td>
+        <td>{{ del.partner }}</td>
+        <td>{{ del.date }}</td>
+      </tr>
+  {% endfor %}
+
+</table>
+
+<h1 id="spartner">Sorted by partner</h1>
+<table class="del">
+
+  <tr>
+    <th colspan="2">Deliverables</th>
+    <th>Partner</th>
+    <th>Due date</th>
+  </tr>
+
+  {% assign sorted_del = site.data.deliverables | sort: "partner" %}
+  {% for del in sorted_del %}
+    {% assign date = del.date | date: "%Y-%m-%d" %}
+    {% if date < date_today %}
+      {% if del.status == 'late' %}
+        <tr class='late'>
+      {% else %}
+        <tr class='delivered'>
+      {% endif %}
+    {% else %}
+      <tr>
+    {% endif %}
+        <td>{{ del.id }}</td>
+        <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="({{ del.link | replace:'https://doi.org/', '' }})"></a>{% endif %}</td>
+        <td>{{ del.partner }}</td>
+        <td>{{ del.date }}</td>
+      </tr>
+  {% endfor %}
+
+</table>

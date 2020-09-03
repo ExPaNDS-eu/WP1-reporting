@@ -1,0 +1,38 @@
+---
+title: PEB meetings
+---
+
+{% assign sorted_pebs = site.pebs | reverse %}
+
+<ul id="toggled-pebs">
+  <li><span class="caret">Click here to go to a specific date.</span>
+    <ul class="nested">
+      <li><span class="caret">2020</span>
+        <ul class="nested">
+          {% for peb in sorted_pebs %}
+            {% assign minyear = peb.date | date: '%Y' %}
+            {% if minyear == '2020' %}
+              <li><a href="#goto{{ peb.date | date: '%Y-%m-%d' }}">{{ peb.date | date_to_string }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+      <li><span class="caret">2019</span>
+        <ul class="nested">
+          {% for peb in sorted_pebs %}
+            {% assign minyear = peb.date | date: '%Y' %}
+            {% if minyear == '2019' %}
+              <li><a href="#goto{{ peb.date | date: '%Y-%m-%d' }}">{{ peb.date | date_to_string }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+{% for peb in sorted_pebs %}
+
+  {{ peb }}
+
+{% endfor %}

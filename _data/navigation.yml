@@ -1,0 +1,41 @@
+# called items with site.data.navigation
+- name: Home
+  link: "/"
+
+- name: Deliverables
+  link: "/deliverables.html"
+
+- name: Milestones
+  link: "/milestones.html"
+
+- name: Progress Reports
+  link: "/reports.html"
+  subnav:
+    - name: WP1
+      link: "/reports-wp/reports-wp1.html"
+    - name: WP2
+      link: "/reports-wp/reports-wp2.html"
+    - name: WP3
+      link: "/reports-wp/reports-wp3.html"
+    - name: WP4
+      link: "/reports-wp/reports-wp4.html"
+    - name: WP5
+      link: "/reports-wp/reports-wp5.html"
+    - name: WP6
+      link: "/reports-wp/reports-wp6.html"
+
+- name: PEB meetings
+  link: "/pebs.html"
+  subnav:
+    - name: WP1
+      link: "/pebs-wp/pebs-wp1.html"
+    - name: WP2
+      link: "/pebs-wp/pebs-wp2.html"
+    - name: WP3
+      link: "/pebs-wp/pebs-wp3.html"
+    - name: WP4
+      link: "/pebs-wp/pebs-wp4.html"
+    - name: WP5
+      link: "/pebs-wp/pebs-wp5.html"
+    - name: WP6
+      link: "/pebs-wp/pebs-wp6.html"

@@ -1,0 +1,18 @@
+// Scroll to the top button
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: $padding-big;
+  right: $padding-big;
+  z-index: 99;
+  background-color: $color-strong;
+  color: $color-fade;
+  cursor: pointer;
+  padding: $padding-big;
+  border-radius: $border-std;
+}
+
+#scrollBtn:hover {
+  background-color: $color-fade;
+  color: $color-strong;
+}

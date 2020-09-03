@@ -1,0 +1,22 @@
+---
+---
+
+<hr>
+<h1 id="goto{{ page.date | date: '%Y-%m-%d' }}">Project Executive Board meeting notes - {{ page.date | date_to_string }}</h1>
+<h1>Introduction</h1>
+
+{{ page.intro }}
+
+<h1>Status quo per WP</h1>
+
+{% for i in (0..5) %}
+  {% if page.status-quo[i] != "" %}
+    <h2>WP{{ i | plus: 1 }}</h2>
+    {{ page.status-quo[i] }}
+  {% endif %}
+{% endfor %}
+
+{% if page.aob != "" %}
+  <h1>AOB</h1>
+  {{ page.aob }}
+{% endif %}

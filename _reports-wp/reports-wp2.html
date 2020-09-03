@@ -1,0 +1,10 @@
+---
+title: WP2 reports
+---
+
+{% for report in site.reports %}
+  {% if report.wp == "2" %}
+    <hr>
+    {{ report }}
+  {% endif %}
+{% endfor %}

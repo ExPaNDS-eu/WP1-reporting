@@ -1,0 +1,25 @@
+---
+---
+<!doctype html>
+
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">Top</button>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+
+  {% include footer.html %}
+
+</html>

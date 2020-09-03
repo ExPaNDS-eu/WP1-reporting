@@ -1,0 +1,49 @@
+// Navigation bar
+nav {
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: White;
+  z-index: 1;
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: $padding-big;
+    font-weight: bold;
+  }
+
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: White;
+    box-shadow: 0 $padding-std $padding-big 0 $color-fade;
+    z-index: 1; //to bring it to the front
+    min-width: $margin-big;
+    a {
+      padding: $padding-std $padding-big;
+      display: block;
+      font-weight: normal;
+    }
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: $color-fade;
+  }
+}

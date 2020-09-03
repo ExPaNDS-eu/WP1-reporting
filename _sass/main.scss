@@ -1,0 +1,125 @@
+// Common to everybody
+
+// Background
+body {
+  background-color: White;
+  max-width: $max-width;
+  margin: 0 auto $margin-std auto; // top right bottom left
+}
+
+head, nav, .content, footer {
+  margin: 0 $margin-std 0 $margin-std;
+}
+
+.content {
+  margin-top: $margin-small;
+}
+
+footer {
+  clear: both;
+  padding-top: $padding-big;
+}
+// Fonts, colors, titles
+
+* {
+  font-family: "Noto Sans", "Myriad Pro Regular", sans-serif;
+  font-size: $font-size;
+  color: $color-std;
+  line-height: $line-height-std;
+  text-align: justify;
+}
+
+h1, th, strong, .focus {
+  font-weight: bold;
+  color: $color-strong;
+}
+
+h1 {
+  padding-top: $padding-big; // padding and not margin because margins collapse
+}
+
+h2 {
+  margin-left: $padding-big;
+}
+
+p, td {
+  margin: $padding-std 0;
+}
+
+hr {
+  border: $border-std solid $color-std;
+  border-radius: $padding-small;
+  clear: both;
+  margin: $padding-std;
+  margin-left: $margin-std;
+  margin-right: $margin-std;
+  opacity: $opacity-std;
+}
+
+// links
+a:hover {
+  color: $color-strong;
+}
+
+// images
+img[style~="float:left"] {
+  margin: 0;
+  margin-right: $padding-big;
+}
+
+img[style~="float:right"] {
+  margin: 0;
+  margin-left: $padding-big;
+}
+
+a img { //DOIs
+  width: 35%;
+}
+
+// boxes
+div.box {
+  width: $margin-big;
+  line-height: $margin-big;
+  border: $border-std solid $color-strong;
+  box-sizing: border-box;
+  box-shadow: $padding-std $padding-std $color-fade;
+  margin: $padding-big;
+  padding: $padding-std;
+  float: left;
+  clear: right;
+  p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+}
+
+div.box + h1 {
+  clear: both;
+}
+
+// Responsive layout: changes the font size to vw when screen < resp-max-width
+@media screen and (max-width: $resp-max-width) {
+  * {
+    font-size: $resp-font-size;
+  }
+
+  body {
+    max-width: $resp-max-width;
+    margin: 0 $resp-margin-std 0 $resp-margin-std;
+  }
+
+  head, nav, .content, footer {
+    margin: 0;
+  }
+
+  .content {
+    margin-top: $resp-margin-small;
+  }
+
+  div.box {
+    width: $resp-margin-big;
+    line-height: $resp-margin-big;
+  }
+}
