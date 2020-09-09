@@ -21,7 +21,8 @@
     {% assign id = del.id | split: "." %}
     {% if date <= ref_date_2 and
       date >= ref_date_1 and
-      id[0] == page.wp %}
+      id[0] == page.wp and
+      del.status <> 'late' %}
       {% assign num = num | plus: 1 %}
       <tr>
         <td>{{ del.id }}</td>
@@ -51,7 +52,18 @@
   {% for del in site.data.deliverables %}
     {% assign date = del.date | date: "%Y-%m-%d" %}
     {% assign id = del.id | split: "." %}
-    {% if date > ref_date_2 and date < ref_date_3 and id[0] == page.wp %}
+    {% if del.status == 'late' and
+      id[0] == page.wp %}
+      {% assign num = num | plus: 1 %}
+      <tr class='late'>
+        <td>{{ del.id }}</td>
+        <td>{{ del.name }}</td>
+        <td>{{ del.partner }}</td>
+        <td>{{ del.date | date_to_string }}</td>
+      </tr>
+    {% elsif date > ref_date_2 and
+      date < ref_date_3 and
+      id[0] == page.wp %}
       {% assign num = num | plus: 1 %}
       <tr>
         <td>{{ del.id }}</td>
@@ -64,7 +76,7 @@
   {% if num == 0 %}
     <tr>
       <td colspan="4">
-        No deliverables in the next 6 months
+        No upcoming deliverables for this period
       </td>
     </tr>
   {% endif %}
