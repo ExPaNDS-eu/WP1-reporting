@@ -16,3 +16,9 @@
   background-color: $color-fade;
   color: $color-strong;
 }
+
+.overflow-area {
+  width: 100%;
+  height: $page-height;
+  overflow: scroll;
+}
