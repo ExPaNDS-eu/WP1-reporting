@@ -2,103 +2,46 @@
 title: Milestones
 ---
 <div class="box">
-  <p><a href='#sdates'>See the milestones list sorted by date</a></p>
+  <p><a href='#sdate'>See the milestones list sorted by date</a></p>
 </div>
 <div class="box">
-  <p><a href='#snb'>See the milestones list sorted by number</a></p>
+  <p><a href='#sid'>See the milestones list sorted by number</a></p>
 </div>
 <div class="box">
   <p><a href='#spartner'>See the milestones list sorted by partner</a></p>
 </div>
 
 {% assign date_today = "today" | date: "%Y-%m-%d" %}
+{% assign sort_type = "date, id, partner" | split: ", " %}
 
-<h1 id="sdates">Sorted by date</h1>
-  <table class="del">
+{% for stype in sort_type %}
+  <h1 id="s{{ stype }}">Sorted by {{ stype }}</h1>
+    <table class="del">
 
-  <tr>
-    <th colspan="2">Milestones</th>
-    <th>Partner</th>
-    <th>Due date</th>
-  </tr>
+    <tr>
+      <th colspan="2">Milestones</th>
+      <th>Partner</th>
+      <th>Due date</th>
+    </tr>
 
-  {% assign sorted_mil = site.data.milestones | sort: "date" %}
-  {% for mil in sorted_mil %}
-    {% assign date = mil.date | date: "%Y-%m-%d" %}
-    {% if date < date_today %}
-      {% if mil.status == 'late' %}
-        <tr class='late'>
+    {% assign sorted_mil = site.data.milestones | sort: stype %}
+    {% for mil in sorted_mil %}
+      {% assign date = mil.date | date: "%Y-%m-%d" %}
+      {% if date < date_today %}
+        {% if mil.status == 'late' %}
+          <tr class='late'>
+        {% else %}
+          <tr class='delivered'>
+        {% endif %}
       {% else %}
-        <tr class='delivered'>
+        <tr>
       {% endif %}
-    {% else %}
-      <tr>
-    {% endif %}
-        <td>{{ mil.id }}</td>
-        <td>{{ mil.name }}</td>
-        <td>{{ mil.partner }}</td>
-        <td>{{ mil.date }}</td>
-      </tr>
-  {% endfor %}
+          <td>{{ mil.id }}</td>
+          <td>{{ mil.name }}</td>
+          <td>{{ mil.partner }}</td>
+          <td>{{ mil.date }}</td>
+        </tr>
+    {% endfor %}
 
-</table>
-
-<h1 id="snb">Sorted by number</h1>
-<table class="del">
-
-  <tr>
-    <th colspan="2">Milestones</th>
-    <th>Partner</th>
-    <th>Due date</th>
-  </tr>
-
-  {% assign sorted_mil = site.data.milestones | sort: "id" %}
-  {% for mil in sorted_mil %}
-    {% assign date = mil.date | date: "%Y-%m-%d" %}
-    {% if date < date_today %}
-      {% if mil.status == 'late' %}
-        <tr class='late'>
-      {% else %}
-        <tr class='delivered'>
-      {% endif %}
-    {% else %}
-      <tr>
-    {% endif %}
-        <td>{{ mil.id }}</td>
-        <td>{{ mil.name }}</td>
-        <td>{{ mil.partner }}</td>
-        <td>{{ mil.date }}</td>
-      </tr>
-  {% endfor %}
-
-</table>
-
-<h1 id="spartner">Sorted by partner</h1>
-<table class="del">
-
-  <tr>
-    <th colspan="2">Milestones</th>
-    <th>Partner</th>
-    <th>Due date</th>
-  </tr>
-
-  {% assign sorted_mil = site.data.milestones | sort: "partner" %}
-  {% for mil in sorted_mil %}
-    {% assign date = mil.date | date: "%Y-%m-%d" %}
-    {% if date < date_today %}
-      {% if mil.status == 'late' %}
-        <tr class='late'>
-      {% else %}
-        <tr class='delivered'>
-      {% endif %}
-    {% else %}
-      <tr>
-    {% endif %}
-        <td>{{ mil.id }}</td>
-        <td>{{ mil.name }}</td>
-        <td>{{ mil.partner }}</td>
-        <td>{{ mil.date }}</td>
-      </tr>
-  {% endfor %}
-
-</table>
+  </table>
+{% endfor %}
