@@ -12,7 +12,7 @@ th, td {
   border: $border-std solid $color-std;
 }
 
-  // deliverables and milestones tables
+// deliverables and milestones tables
 .del tr:hover {
   background-color: $color-fade;
 }
@@ -25,7 +25,7 @@ tr.late {
   background-color: $color-red;
 }
 
-  // tasks tables
+// tasks tables
 .task {
   th, td {
   border: none;
@@ -39,5 +39,23 @@ tr.late {
 
   tr th:last-child, tr td:last-child {
     border-right: $border-std solid $color-std;
+  }
+}
+
+// timeline
+.timeline {
+
+  tr:nth-child(3) {
+    background-color: $color-fade;
+  }
+
+  th, td {
+    padding: 0 $padding-small/1.2 0 $padding-small/1.2;
+    text-align: center;
+  }
+
+  .invisible td {
+    color: White;
+    border: none;
   }
 }

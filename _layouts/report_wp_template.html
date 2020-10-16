@@ -2,10 +2,43 @@
 layout: default
 ---
 
+<h1>TIMELINE</h1>
+<table class="timeline">
+  <tr>
+    <th colspan="4">2019</th>
+    <th colspan="12">2020</th>
+    <th colspan="12">2021</th>
+    <th colspan="12">2022</th>
+    <th colspan="2">2023</th>
+  </tr>
+  <tr class="update">
+    {% assign all_months = "9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,1,2" | split: "," %}
+      {% for i in all_months %}
+        <td>{{ i }}</td>
+      {% endfor %}
+  </tr>
+  <tr>
+    {% assign num = 0 %}
+    {% for report in site.reports %}
+      {% if report.wp == page.wp %}
+        {% assign num = num | plus: 1 %}
+        <td colspan={{ report.timespan }}><a href="#gotoreport{{ num }}">Report #{{ num }}</a></td>
+      {% endif %}
+    {% endfor %}
+  </tr>
+  <!--
+  <tr class="invisible">
+    {% for i in (1..42) %}
+      <td>..</td>
+    {% endfor %}
+  </tr> -->
+</table>
+
 {% assign sorted_reports = site.reports | reverse %}
 {% for report in sorted_reports %}
   {% if report.wp == page.wp %}
-    <hr>
+    <hr id="gotoreport{{ num }}">
     {{ report }}
+    {% assign num = num | minus: 1 %}
   {% endif %}
 {% endfor %}

@@ -1,0 +1,32 @@
+// Responsive layout: changes the font size to vw when screen < resp-max-width
+@media screen and (max-width: $resp-max-width) {
+  * {
+    font-size: $resp-font-size;
+  }
+
+  body {
+    max-width: $resp-max-width;
+    margin: 0 $resp-margin-std 0 $resp-margin-std;
+  }
+
+  head, nav, .content, footer {
+    margin: 0;
+  }
+
+  .content {
+    margin-top: $resp-margin-small;
+  }
+
+  div.box {
+    width: $resp-margin-big;
+    line-height: $resp-margin-big;
+  }
+
+  .overflow-area {
+    height: $resp-page-height;
+  }
+
+  .update {
+    font-size: $resp-small-font-size;
+  }
+}
