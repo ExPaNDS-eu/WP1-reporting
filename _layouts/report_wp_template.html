@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% assign sorted_reports = site.reports | reverse %}
+{% for report in sorted_reports %}
+  {% if report.wp == page.wp %}
+    <hr>
+    {{ report }}
+  {% endif %}
+{% endfor %}
