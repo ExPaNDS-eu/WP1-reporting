@@ -14,11 +14,17 @@ defaults:
     values:
       layout: "default"
 
-  - scope: # reports collection (in _reports)
+  - scope:
       path: "" #root
       type: "reports"
     values:
       layout: "report_template"
+
+  - scope:
+      path: "" #root
+      type: "reports-wp"
+    values:
+      layout: "report_wp_template"
 
   - scope:
       path: ""
