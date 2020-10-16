@@ -1,8 +1,40 @@
 ---
 title: Progress Reports
 ---
-{% for report in site.reports %}
 
-  {{ report }}
+<p>For a detailed summary of the progress of our different work-packages, technical progress reports are periodically made available. You can choose here the WP you are interested in.</p>
 
+{% for each_report in site.reports %}
+  {% if each_report.wp == "1" %}
+    {% assign last_date_wp1 = each_report.date %}
+  {% elsif each_report.wp == "2" %}
+    {% assign last_date_wp2 = each_report.date %}
+  {% elsif each_report.wp == "3" %}
+    {% assign last_date_wp3 = each_report.date %}
+  {% elsif each_report.wp == "4" %}
+    {% assign last_date_wp4 = each_report.date %}
+  {% elsif each_report.wp == "5" %}
+    {% assign last_date_wp5 = each_report.date %}
+  {% elsif each_report.wp == "6" %}
+    {% assign last_date_wp6 = each_report.date %}
+  {% endif %}
 {% endfor %}
+
+<div class="box">
+  <p><a href='{{ "/reports-wp/reports-wp1.html" | relative_url }}'>WP1 - Management and Sustainability</a><br><span class="update">Last update: {{ last_date_wp1 | date_to_string }}</span></p>
+</div>
+<div class="box">
+  <p><a href='{{ "/reports-wp/reports-wp2.html" | relative_url }}'>WP2 - Enabling FAIR data for PaN national RIs</a><br><span class="update">Last update: {{ last_date_wp2 | date_to_string }}</span></p>
+</div>
+<div class="box">
+  <p><a href='{{ "/reports-wp/reports-wp3.html" | relative_url }}'>WP3 - EOSC data catalogue services for PaN national RIs</a><br><span class="update">Last update: {{ last_date_wp3 | date_to_string }}</span></p>
+</div>
+<div class="box">
+  <p><a href='{{ "/reports-wp/reports-wp4.html" | relative_url }}'>WP4 - EOSC data analysis services for PaN national RIs</a><br><span class="update">Last update: {{ last_date_wp4 | date_to_string }}</span></p>
+</div>
+<div class="box">
+  <p><a href='{{ "/reports-wp/reports-wp5.html" | relative_url }}'>WP5 - Training activities through EOSC platforms</a><br><span class="update">Last update: {{ last_date_wp5 | date_to_string }}</span></p>
+</div>
+<div class="box">
+  <p><a href='{{ "/reports-wp/reports-wp6.html" | relative_url }}'>WP6 - Dissemination and Outreach</a><br><span class="update">Last update: {{ last_date_wp6 | date_to_string }}</span></p>
+</div>

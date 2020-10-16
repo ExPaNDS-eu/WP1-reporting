@@ -46,6 +46,12 @@ p, td {
   margin: $padding-std 0;
 }
 
+.update {
+  font-style: italic;
+  color: $color-strong;
+  font-size: $small-font-size;
+}
+
 hr {
   border: $border-std solid $color-std;
   border-radius: $padding-small;
@@ -95,7 +101,7 @@ div.box {
   }
 }
 
-div.box + h1 {
+div.box + h1, div.box + img {
   clear: both;
 }
 
@@ -125,5 +131,9 @@ div.box + h1 {
 
   .overflow-area {
     height: $resp-page-height;
+  }
+
+  .update {
+    font-size: $resp-small-font-size;
   }
 }
