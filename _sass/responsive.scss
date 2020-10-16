@@ -26,7 +26,7 @@
     height: $resp-page-height;
   }
 
-  .update {
+  .update, .update * {
     font-size: $resp-small-font-size;
   }
 }
