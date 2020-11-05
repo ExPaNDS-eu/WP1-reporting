@@ -251,6 +251,7 @@
   name: Dedicated European user meeting focused on ExPaNDS
   partner: Diamond
   date: 2020-10-31 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+  status: late
 
 - id: 6.04
   name: Vision and roadmap documents for key audiences
