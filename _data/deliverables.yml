@@ -118,7 +118,9 @@
 - id: 3.1
   name: Report on status, gap analysis and roadmap towards harmonised and federated metadata catalogues for EU national Photon and Neutron RIs
   partner: PSI
-  date: 2020-10-31 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+  date: 2020-11-03
+  link: https://doi.org/10.5281/zenodo.4146819
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4146819.svg
 
 - id: 3.2
   name: Release V1.0 ExPaNDS ontology available as an EOSC online service
