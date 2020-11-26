@@ -21,4 +21,8 @@
   width: 100%;
   height: $page-height;
   overflow: scroll;
+
+  * {
+    padding-right: $padding-std;
+  }
 }
