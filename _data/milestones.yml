@@ -22,7 +22,7 @@
 - id: 5
   name: First all-hands meeting organised
   partner: DESY
-  date: 2020-11-11 #reference: 2020-08-31 / shift to 2020-11-30 accepted by PO on 2020-07-31
+  date: 2020-11-11
 
 - id: 6
   name: Successful completion of mid-term
@@ -32,27 +32,27 @@
 - id: 7
   name: Second all-hands meeting organised
   partner: DESY
-  date: 2021-04-30
+  date: 2021-11-30
 
 - id: 8
   name: Third all-hands meeting organised
   partner: DESY
-  date: 2022-02-28
+  date: 2022-12-31
 
 - id: 9
   name: Successful completion of final review
   partner: DESY
-  date: 2022-08-31
+  date: 2023-02-28
 
 - id: 10
   name: Production of draft FAIR data framework
   partner: UKRI
-  date: 2020-11-30 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+  date: 2020-11-30
 
 - id: 11
   name: Production of final FAIR data framework
   partner: UKRI
-  date: 2022-06-30
+  date: 2022-11-30
 
 - id: 12
   name: Metadata catalogue release
@@ -67,12 +67,12 @@
 - id: 14
   name: Analysis services prototypes
   partner: DESY
-  date: 2021-08-31
+  date: 2022-02-28
 
 - id: 15
   name: Analysis services for EOSC
   partner: DESY
-  date: 2022-06-30
+  date: 2022-12-31
 
 - id: 16
   name: First (pilot) national training event organised and performed
@@ -82,7 +82,7 @@
 - id: 17
   name: Training websites and e-platforms online available
   partner: SOLEIL
-  date: 2022-04-30
+  date: 2022-10-31
 
 - id: 18
   name: Website
@@ -97,27 +97,27 @@
 - id: 20
   name: Vision and roadmap documents
   partner: Diamond
-  date: 2020-12-31 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+  date: 2020-12-31
 
 - id: 21
   name: Reference from community websites
   partner: Diamond
-  date: 2020-10-13 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+  date: 2020-10-13
 
 - id: 22
   name: AAAS & ESOF attendance
   partner: Diamond
-  date: 2021-08-31 #reference: 2020-06-30 / shift accepted by PO on 2020-07-31
+  date: 2021-08-31
 
 - id: 23
   name: AAAS & ESOF attendance
   partner: Diamond
-  date: 2021-06-30
+  date: 2022-04-30
 
 - id: 24
   name: AAAS & ESOF attendance
   partner: Diamond
-  date: 2022-06-30
+  date: 2022-12-31
 
 - id: 25
   name: Collaboration network of communicators in place with regular updates

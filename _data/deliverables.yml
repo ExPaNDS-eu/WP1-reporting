@@ -5,34 +5,25 @@
   date: 2019-11-29
   description: Initial list of ExPaNDS participants and their contributions, initial list of board members
 
-- name: Collaboration agreement(s)
-  partner: DESY
-  id: 1.11
-  date: 2019-12-20
-  description: Formal agreement between the INFRA-EOSC 5B projects to make the most of the synergies between our projects, including the list of 'task forces' and their initial workplan
-
-- name: Risk analysis and contingency plan
-  partner: PSI
-  id: 1.03
-  date: 2019-12-17
-  description:
-
-- id: 1.05
-  name:	Communication Plan (internal + EC)
-  partner: DESY
-  date: 2019-12-23
-
 - id: 1.02
   name:	Project Quality Assurance and Progress Monitoring Plan
   partner: PSI
   date: 2020-02-05
 
-- id: 1.10
-  name: Data Management Plan
+- name: Risk analysis and contingency plan
+  partner: PSI
+  id: 1.03
+  date: 2019-12-17
+
+- id: 1.04
+  name: Risk analysis and contingency plan report
+  partner: PSI
+  date: 2020-11-30
+
+- id: 1.05
+  name:	Communication Plan (internal + EC)
   partner: DESY
-  date: 2020-02-14
-  link: https://doi.org/10.5281/zenodo.3672926
-  img: https://zenodo.org/badge/DOI/10.5281/zenodo.3762926.svg
+  date: 2019-12-23
 
 - id: 1.06
   name: General Architecture in relation to the EOSC services
@@ -48,11 +39,6 @@
   date: 2020-03-18
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.3715279.svg
 
-- id: 1.04
-  name: Risk analysis and contingency plan report
-  partner: PSI
-  date: 2020-11-30
-
 - id: 1.08
   name: Periodic progress report
   partner: DESY
@@ -61,7 +47,35 @@
 - id: 1.09
   name: Periodic progress report
   partner: DESY
-  date: 2022-07-31
+  date: 2023-02-28
+
+- id: 1.10
+  name: Data Management Plan
+  partner: DESY
+  date: 2020-02-14
+  link: https://doi.org/10.5281/zenodo.3672926
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.3762926.svg
+
+- name: Collaboration agreement(s)
+  partner: DESY
+  id: 1.11
+  date: 2019-12-20
+  description: Formal agreement between the INFRA-EOSC 5B projects to make the most of the synergies between our projects, including the list of 'task forces' and their initial workplan
+
+- id: 1.12
+  name: Financial report 1
+  partner: DESY
+  date: 2020-12-31
+
+- id: 1.13
+  name: Financial report 2
+  partner: DESY
+  date: 2021-12-31
+
+- id: 1.14
+  name: Financial report 3
+  partner: DESY
+  date: 2022-12-31
 
 - id: 2.1
   name: Draft extended data policy framework for Photon and Neutron RIs
@@ -74,7 +88,7 @@
 - id: 2.2
   name: Draft recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
-  date: 2020-11-30 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
+  date: 2020-11-30
   description: Draft recommendations on actual implementation of FAIR practices at each stage of the data life cycle
 
 - id: 2.3
@@ -86,34 +100,34 @@
 - id: 2.4
   name: DMPs for Photon and Neutron RIs
   partner: HZB
-  date: 2021-08-31
+  date: 2021-11-30
   description: Model Data Management Plan for a typical PaN instrument
 
 - id: 2.5
   name: Advanced infrastructure for PIDs in Photon and Neutron RIs
   partner: UKRI
-  date: 2021-08-31
+  date: 2022-02-28
 
 - id: 2.6
   name: Self-evaluation Photon and Neutron RIs for FAIR data certification
   partner: UKRI
-  date: 2022-02-28
+  date: 2022-08-31
 
 - id: 2.7
   name: Final Recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
-  date: 2022-02-28
+  date: 2022-05-31
   description: Recommendations on actual implementation of FAIR practices at each stage of the data life cycle
 
 - id: 2.8
   name: Active DMPs for Photon and Neutron RIs
   partner: HZB
-  date: 2022-08-31
+  date: 2022-11-30
 
 - id: 2.9
   name: Report on promotion of FAIR data within Photon and Neutron RIs
   partner: UKRI
-  date: 2022-08-31
+  date: 2023-01-31
 
 - id: 3.1
   name: Report on status, gap analysis and roadmap towards harmonised and federated metadata catalogues for EU national Photon and Neutron RIs
@@ -125,7 +139,7 @@
 - id: 3.2
   name: Release V1.0 ExPaNDS ontology available as an EOSC online service
   partner: PSI
-  date: 2021-02-28
+  date: 2021-05-31
 
 - id: 3.3
   name: Demonstrate ICAT and SciCat released with APIs compatible to ExPaNDS federated EOSC services
@@ -150,17 +164,17 @@
 - id: 4.3
   name: Testing and Validation framework
   partner: MaxIV
-  date: 2021-02-28
+  date: 2021-08-31
 
 - id: 4.4
   name: Analysis Services Prototypes
   partner: SOLEIL
-  date: 2021-08-31
+  date: 2022-02-28
 
 - id: 4.5
   name: Deployment of Analysis Services for EOSC within the EOSC-hub
   partner: DESY
-  date: 2022-06-30
+  date: 2022-12-31
 
 - id: 5.1
   name: Annual report on training activities, workshops held, materials published and investigations performed
@@ -172,6 +186,11 @@
   partner: SOLEIL
   date: 2021-08-31
 
+- id: 5.3
+  name: Annual report on training activities, workshops held, materials published and investigations performed
+  partner: SOLEIL
+  date: 2022-08-31
+
 - id: 5.4
   name: Demonstrator for using of e-learning platforms
   partner: HZDR
@@ -180,22 +199,12 @@
 - id: 5.5
   name: Dedicated websites and e-platforms with the teaching material
   partner: SOLEIL
-  date: 2022-02-28
-
-- id: 5.3
-  name: Annual report on training activities, workshops held, materials published and investigations performed
-  partner: SOLEIL
   date: 2022-08-31
 
 - id: 5.6
   name: Report on lessons learned and future prospects for adopting best practices
   partner: HZDR
-  date: 2022-08-31
-
-- id: 6.19
-  name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
-  partner: Diamond
-  date: 2019-10-31
+  date: 2023-01-31
 
 - id: 6.01
   name: Communication and Dissemination Plan
@@ -212,51 +221,35 @@
   partner: Diamond
   date: 2019-11-30
 
-- id: 6.14
-  name: Engage science communicators based at PAN RIs
+- id: 6.04
+  name: Vision and roadmap documents for key audiences
   partner: Diamond
-  date: 2020-02-29
+  date: 2020-12-31
 
-- id: 6.18
-  name: Infographic of metrics and KPI linked to WP2, 3 and 4
+- id: 6.05
+  name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
-  date: 2020-02-29
-  link: https://doi.org/10.5281/zenodo.3757786
-  img: https://zenodo.org/badge/DOI/10.5281/zenodo.3757786.svg
+  date: 2021-08-31
+
+- id: 6.06
+  name: ExPaNDS representation material for relevant large international conferences
+  partner: Diamond
+  date: 2022-04-30
+
+- id: 6.07
+  name: ExPaNDS representation material for relevant large international conferences
+  partner: Diamond
+  date: 2022-12-31
 
 - id: 6.08
   name: ExPaNDS presentation for conferences
   partner: Diamond
   date: 2020-02-29
 
-- id: 6.17
-  name: Standard Information sheet on ExPaNDS and the benefits of Open Data for RI users
-  partner: Diamond
-  date: 2020-04-30
-  link: https://doi.org/10.5281/zenodo.3780053
-  img: https://zenodo.org/badge/DOI/10.5281/zenodo.3780053.svg
-
-- id: 6.05
-  name: ExPaNDS representation material for relevant large international conferences
-  partner: Diamond
-  date: 2020-06-30
-  status: late
-
 - id: 6.09
   name: ExPaNDS presentation for conferences
   partner: Diamond
   date: 2020-06-30
-
-- id: 6.15
-  name: Dedicated European user meeting focused on ExPaNDS
-  partner: Diamond
-  date: 2020-10-31 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
-  status: late
-
-- id: 6.04
-  name: Vision and roadmap documents for key audiences
-  partner: Diamond
-  date: 2020-12-31 #reference: 2020-08-31 / shift accepted by PO on 2020-07-31
 
 - id: 6.10
   name: ExPaNDS presentation for conferences
@@ -268,23 +261,8 @@
   partner: Diamond
   date: 2021-06-30
 
-- id: 6.06
-  name: ExPaNDS representation material for relevant large international conferences
-  partner: Diamond
-  date: 2021-06-30
-
-- id: 6.20
-  name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
-  partner: Diamond
-  date: 2021-08-31
-
 - id: 6.12
   name: ExPaNDS presentation for conferences
-  partner: Diamond
-  date: 2022-02-28
-
-- id: 6.16
-  name: Dedicated European user meeting focused on ExPaNDS
   partner: Diamond
   date: 2022-02-28
 
@@ -293,10 +271,45 @@
   partner: Diamond
   date: 2022-06-30
 
-- id: 6.07
-  name: ExPaNDS representation material for relevant large international conferences
+- id: 6.14
+  name: Engage science communicators based at PAN RIs
   partner: Diamond
-  date: 2022-06-30
+  date: 2020-02-29
+
+- id: 6.15
+  name: Dedicated European user meeting focused on ExPaNDS
+  partner: Diamond
+  date: 2020-10-31
+  status: late
+
+- id: 6.16
+  name: Dedicated European user meeting focused on ExPaNDS
+  partner: Diamond
+  date: 2022-02-28
+
+- id: 6.17
+  name: Standard Information sheet on ExPaNDS and the benefits of Open Data for RI users
+  partner: Diamond
+  date: 2020-04-30
+  link: https://doi.org/10.5281/zenodo.3780053
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.3780053.svg
+
+- id: 6.18
+  name: Infographic of metrics and KPI linked to WP2, 3 and 4
+  partner: Diamond
+  date: 2020-02-29
+  link: https://doi.org/10.5281/zenodo.3757786
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.3757786.svg
+
+- id: 6.19
+  name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
+  partner: Diamond
+  date: 2019-10-31
+
+- id: 6.20
+  name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
+  partner: Diamond
+  date: 2021-08-31
 
 - id: 1.71
   name: POPD - Requirement No. 1

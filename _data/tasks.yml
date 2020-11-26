@@ -48,19 +48,19 @@
 - id: 2.3
   name: Mainstreaming of standards for data management
   partner: ALBA
-  end-date: 2022-02-28
+  end-date: 2022-05-31
 
 - id: 2.4
   name: Persistent Identifier infrastructure
   partner: UKRI
   start-date: 2020-09-01
-  end-date: 2021-08-31
+  end-date: 2022-02-28
 
 - id: 2.5
   name: Quality assurance and certification schemes for data repositories
   partner: UKRI
   start-date: 2020-09-01
-  end-date: 2022-02-28
+  end-date: 2022-08-31
 
 - id: 2.6
   name: Uptake of FAIR data practices
@@ -69,7 +69,7 @@
 - id: 3.1
   name: Coordinate metadata catalogue services
   partner: PSI
-  end-date: 2020-08-31
+  end-date: 2020-10-31
 
 - id: 3.2
   name: Develop an EU PaN ontology
@@ -81,7 +81,7 @@
   name: Implement ontologies in metadata catalogues
   partner: PSI
   start-date: 2020-08-01
-  end-date: 2022-02-28
+  end-date: 2022-08-31
 
 - id: 3.4
   name: Coordinate metadata catalogues and data life cycle
@@ -125,19 +125,19 @@
   name: Testing and validation framework
   partner: MaxIV
   start-date: 2020-06-01 # updated - ref:2020-08-01
-  end-date: 2021-02-28
+  end-date: 2021-08-31
 
 - id: 4.6
   name: Prototype data analysis services
   partner: SOLEIL
   start-date: 2020-08-01
-  end-date: 2021-08-31
+  end-date: 2022-02-28
 
 - id: 4.7
   name: Deploy data analysis services into the EOSC-hub
   partner: DESY
   start-date: 2021-02-01
-  end-date: 2022-06-30
+  end-date: 2022-12-31
 
 - id: 5.1
   name: Organising at national RIs a series of staff and users training events
