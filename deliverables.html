@@ -22,7 +22,7 @@ title: Deliverables
     <tr>
       <th colspan="2">Deliverables</th>
       <th>Partner</th>
-      <th>Due date</th>
+      <th>Date</th>
     </tr>
 
     {% assign sorted_del = site.data.deliverables | sort: stype %}
@@ -40,7 +40,7 @@ title: Deliverables
           <td>{{ del.id }}</td>
           <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="({{ del.link | replace:'https://doi.org/', '' }})"></a>{% endif %}</td>
           <td>{{ del.partner }}</td>
-          <td>{{ del.date }}</td>
+          <td class='date'>{{ del.date | date_to_string }}</td>
         </tr>
     {% endfor %}
   </table>

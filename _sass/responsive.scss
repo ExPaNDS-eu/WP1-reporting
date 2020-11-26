@@ -29,4 +29,9 @@
   .update, .update * {
     font-size: $resp-small-font-size;
   }
+
+  td.date {
+    width: $resp-forced-width-date;
+  }
+
 }

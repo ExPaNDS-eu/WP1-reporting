@@ -25,6 +25,11 @@ tr.late {
   background-color: $color-red;
 }
 
+td.date {
+  width: $forced-width-date;
+  text-align: center;
+}
+
 // tasks tables
 .task {
   th, td {

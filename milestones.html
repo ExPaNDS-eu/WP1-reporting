@@ -21,7 +21,7 @@ title: Milestones
     <tr>
       <th colspan="2">Milestones</th>
       <th>Partner</th>
-      <th>Due date</th>
+      <th>Date</th>
     </tr>
 
     {% assign sorted_mil = site.data.milestones | sort: stype %}
@@ -39,7 +39,7 @@ title: Milestones
           <td>{{ mil.id }}</td>
           <td>{{ mil.name }}</td>
           <td>{{ mil.partner }}</td>
-          <td>{{ mil.date }}</td>
+          <td class='date'>{{ mil.date | date_to_string }}</td>
         </tr>
     {% endfor %}
 

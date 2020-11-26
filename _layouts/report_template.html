@@ -11,7 +11,7 @@
   <tr>
     <th colspan="2">Deliverables delivered in period</th>
     <th>Partner</th>
-    <th>Delivery date</th>
+    <th>Date</th>
   </tr>
   {% assign num = 0 %}
   {% assign ref_date_1 = page.start-date | date: "%Y-%m-%d" %}
@@ -28,7 +28,7 @@
         <td>{{ del.id }}</td>
         <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="(link)"></a>{% endif %}</td>
         <td>{{ del.partner }}</td>
-        <td>{{ del.date | date_to_string }}</td>
+        <td class='date'>{{ del.date | date_to_string }}</td>
       </tr>
     {% endif %}
   {% endfor %}
@@ -45,7 +45,7 @@
   <tr>
     <th colspan="2">Upcoming deliverables</th>
     <th>Partner</th>
-    <th>Due date</th>
+    <th>Date</th>
   </tr>
   {% assign num = 0 %}
   {% capture ref_date_3 %}{{ page.end-date | date: '%s' | plus: 16383263 | date: "%Y-%m-%d" }}{% endcapture %} <!-- 1. convert to Unix timestamp 2. add 6 months + 1 week (1 year = 31556926 in Epoch time (epochconvert.com)) to the ref date 3. convert date into a string -->
@@ -59,7 +59,7 @@
         <td>{{ del.id }}</td>
         <td>{{ del.name }}</td>
         <td>{{ del.partner }}</td>
-        <td>{{ del.date | date_to_string }}</td>
+        <td class='date'>{{ del.date | date_to_string }}</td>
       </tr>
     {% elsif date > ref_date_2 and
       date < ref_date_3 and
@@ -69,7 +69,7 @@
         <td>{{ del.id }}</td>
         <td>{{ del.name }}</td>
         <td>{{ del.partner }}</td>
-        <td>{{ del.date | date_to_string }}</td>
+        <td class='date'>{{ del.date | date_to_string }}</td>
       </tr>
     {% endif %}
   {% endfor %}
