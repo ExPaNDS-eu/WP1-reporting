@@ -27,7 +27,7 @@ title: Milestones
     {% assign sorted_mil = site.data.milestones | sort: stype %}
     {% for mil in sorted_mil %}
       {% assign date = mil.date | date: "%Y-%m-%d" %}
-      {% if date < date_today %}
+      {% if date <= date_today %}
         {% if mil.status == 'late' %}
           <tr class='late'>
         {% else %}

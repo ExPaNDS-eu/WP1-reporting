@@ -28,7 +28,7 @@ title: Deliverables
     {% assign sorted_del = site.data.deliverables | sort: stype %}
     {% for del in sorted_del %}
       {% assign date = del.date | date: "%Y-%m-%d" %}
-      {% if date < date_today %}
+      {% if date <= date_today %}
         {% if del.status == 'late' %}
           <tr class='late'>
         {% else %}
