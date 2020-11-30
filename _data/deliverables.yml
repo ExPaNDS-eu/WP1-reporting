@@ -90,6 +90,7 @@
   partner: ALBA
   date: 2020-11-30
   description: Draft recommendations on actual implementation of FAIR practices at each stage of the data life cycle
+  status: late
 
 - id: 2.3
   name: Final data policy framework for Photon and Neutron RIs
