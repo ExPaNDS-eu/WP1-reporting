@@ -1,11 +1,10 @@
 // Responsive layout: changes the font size to vw when screen < resp-max-width
-@media screen and (max-width: $resp-max-width) {
+@media screen and (max-width: $max-width) {
   * {
     font-size: $resp-font-size;
   }
 
   body {
-    max-width: $resp-max-width;
     margin: 0 $resp-margin-std 0 $resp-margin-std;
   }
 
@@ -28,10 +27,6 @@
 
   .update, .update * {
     font-size: $resp-small-font-size;
-  }
-
-  td.date {
-    width: $resp-forced-width-date;
   }
 
 }

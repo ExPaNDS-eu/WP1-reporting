@@ -9,9 +9,6 @@ $padding-big: 3 * $padding-std;
 $line-height-std: 1.4;
 $border-std: 1px;
 
-$forced-width-date: 92px; //82px is enough for Chrome-like browsers but not Mozilla
-$resp-forced-width-date: 10vw;
-
 $margin-std: 90px;
 $margin-small: $margin-std * 0.7;
 $margin-big: 2 * $margin-std;
@@ -20,7 +17,6 @@ $resp-margin-small: $resp-margin-std * 0.7;
 $resp-margin-big: 2 * $resp-margin-std;
 
 $max-width: 900px;//75vw;
-$resp-max-width: 900px;
 $page-height: 700px;
 $resp-page-height: 70vw;
 
