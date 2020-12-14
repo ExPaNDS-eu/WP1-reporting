@@ -88,9 +88,10 @@
 - id: 2.2
   name: Draft recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
-  date: 2020-11-30
-  description: Draft recommendations on actual implementation of FAIR practices at each stage of the data life cycle
-  status: late
+  date: 2020-12-14
+  description: Draft recommendations on actual implementation of FAIR practices at each stage of the data lifecycle
+  link: https://doi.org/10.5281/zenodo.4312825
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4312825.svg
 
 - id: 2.3
   name: Final data policy framework for Photon and Neutron RIs
