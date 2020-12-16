@@ -11,31 +11,31 @@
 - name: Progress Reports
   link: "/reports.html"
   subnav:
-    - name: WP1
+    - name: WP1 - management
       link: "/reports-wp/reports-wp1.html"
-    - name: WP2
+    - name: WP2 - FAIR
       link: "/reports-wp/reports-wp2.html"
-    - name: WP3
+    - name: WP3 - Data Catalogues
       link: "/reports-wp/reports-wp3.html"
-    - name: WP4
+    - name: WP4 - Data Analysis
       link: "/reports-wp/reports-wp4.html"
-    - name: WP5
+    - name: WP5 - Training
       link: "/reports-wp/reports-wp5.html"
-    - name: WP6
+    - name: WP6 - Dissemination
       link: "/reports-wp/reports-wp6.html"
 
 - name: PEB meetings
   link: "/pebs.html"
   subnav:
-    - name: WP1
+    - name: WP1 - management
       link: "/pebs-wp/pebs-wp1.html"
-    - name: WP2
+    - name: WP2 - FAIR
       link: "/pebs-wp/pebs-wp2.html"
-    - name: WP3
+    - name: WP3 - Data Catalogues
       link: "/pebs-wp/pebs-wp3.html"
-    - name: WP4
+    - name: WP4 - Data Analysis
       link: "/pebs-wp/pebs-wp4.html"
-    - name: WP5
+    - name: WP5 - Training
       link: "/pebs-wp/pebs-wp5.html"
-    - name: WP6
+    - name: WP6 - Dissemination
       link: "/pebs-wp/pebs-wp6.html"
