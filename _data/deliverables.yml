@@ -9,21 +9,29 @@
   name:	Project Quality Assurance and Progress Monitoring Plan
   partner: PSI
   date: 2020-02-05
+  link: https://doi.org/10.5281/zenodo.4457914
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4457914.svg
 
 - name: Risk analysis and contingency plan
   partner: PSI
   id: 1.03
   date: 2019-12-17
+  link: https://doi.org/10.5281/zenodo.4457922
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4457922.svg
 
 - id: 1.04
   name: Risk analysis and contingency plan report
   partner: PSI
   date: 2020-11-27
+  link: https://doi.org/10.5281/zenodo.4457927
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4457927.svg
 
 - id: 1.05
   name:	Communication Plan (internal + EC)
   partner: DESY
   date: 2019-12-23
+  link: https://doi.org/10.5281/zenodo.4468898
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4468898.svg
 
 - id: 1.06
   name: General Architecture in relation to the EOSC services
@@ -183,6 +191,8 @@
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
   date: 2020-08-31
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4468983.svg
+  link: https://doi.org/10.5281/zenodo.4468983
 
 - id: 5.2
   name: Annual report on training activities, workshops held, materials published and investigations performed
