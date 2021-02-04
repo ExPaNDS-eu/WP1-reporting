@@ -22,13 +22,14 @@
 
 
   //to toggle lines in deliverables table
-  function ToggleLinesFunction(x) {
-    if (x.next.style.display === 'none') {
-      x.next.style.display = 'run-in';
-    } else {
-      x.next.style.display = 'none';
-    }
-  }
+  $(document).ready(function(){
+    $('tr.delivered').click(function(){
+      if ($(this).next().hasClass('toggled-row')) {
+          $(this).next().toggle();
+          $(this).css('background-color', $color-fade);
+        }
+      });
+    });
 
 
   // to toggle dates in peb minutes
