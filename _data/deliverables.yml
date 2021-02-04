@@ -40,6 +40,7 @@
   link: https://doi.org/10.5281/zenodo.3697704
   date: 2020-03-05
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.3697704.svg
+  description: Description of the proposed architecture to allow seamless connection to catalogue and analyses services hosted at our PaN facilities
 
 - id: 1.07
   name: Sustainability policy report
@@ -101,7 +102,7 @@
   name: Draft recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
   date: 2020-12-14
-  description: Draft recommendations on actual implementation of FAIR practices at each stage of the data lifecycle
+  description: Draft recommendations on the implementation of FAIR practices at each stage of the experimental lifecycle, including what metadata and contextual information should be collected (automatically and manually)
   link: https://doi.org/10.5281/zenodo.4312825
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4312825.svg
 
@@ -115,7 +116,6 @@
   name: DMPs for Photon and Neutron RIs
   partner: HZB
   date: 2021-11-30
-  description: Model Data Management Plan for a typical PaN instrument
 
 - id: 2.5
   name: Advanced infrastructure for PIDs in Photon and Neutron RIs
@@ -131,7 +131,6 @@
   name: Final Recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
   date: 2022-05-31
-  description: Recommendations on actual implementation of FAIR practices at each stage of the data life cycle
 
 - id: 2.8
   name: Active DMPs for Photon and Neutron RIs
