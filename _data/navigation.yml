@@ -11,7 +11,7 @@
 - name: Progress Reports
   link: "/reports.html"
   subnav:
-    - name: WP1 - management
+    - name: WP1 - Management
       link: "/reports-wp/reports-wp1.html"
     - name: WP2 - FAIR
       link: "/reports-wp/reports-wp2.html"
@@ -27,7 +27,7 @@
 - name: PEB meetings
   link: "/pebs.html"
   subnav:
-    - name: WP1 - management
+    - name: WP1 - Management
       link: "/pebs-wp/pebs-wp1.html"
     - name: WP2 - FAIR
       link: "/pebs-wp/pebs-wp2.html"
