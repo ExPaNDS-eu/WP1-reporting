@@ -30,17 +30,20 @@ title: Deliverables
       {% assign date = del.date | date: "%Y-%m-%d" %}
       {% if date <= date_today %}
         {% if del.status == 'late' %}
-          <tr class='late'>
+          <tr class='late' onclick="ToggleLinesFunction(this)">
         {% else %}
-          <tr class='delivered'>
+          <tr class='delivered' onclick="ToggleLinesFunction(this)">
         {% endif %}
       {% else %}
-        <tr>
+        <tr onclick="ToggleLinesFunction(this)">
       {% endif %}
           <td>{{ del.id }}</td>
           <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="({{ del.link | replace:'https://doi.org/', '' }})"></a>{% endif %}</td>
           <td>{{ del.partner }}</td>
           <td class='date'>{{ del.date | date_to_string }}</td>
+        </tr>
+        <tr class='toggled-row'>
+          <td colspan="4">Mettre ici les trucs</td>
         </tr>
     {% endfor %}
   </table>
