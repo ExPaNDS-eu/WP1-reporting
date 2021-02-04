@@ -30,6 +30,10 @@ td.date {
   text-align: center;
 }
 
+tr.toggled-row {
+  display: none;
+}
+
 // tasks tables
 .task {
   th, td {

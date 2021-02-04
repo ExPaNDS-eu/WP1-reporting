@@ -3,7 +3,8 @@
   partner: DESY
   id: 1.01
   date: 2019-11-29
-  description: Initial list of ExPaNDS participants and their contributions, initial list of board members (confidential)
+  description: Initial list of ExPaNDS participants and their contributions, initial list of board members
+  level: Confidential
 
 - id: 1.02
   name:	Project Quality Assurance and Progress Monitoring Plan
@@ -68,13 +69,15 @@
   partner: DESY
   id: 1.11
   date: 2019-12-20
-  description: Formal agreement between the INFRA-EOSC 5B projects to make the most of the synergies between our projects, including the list of 'task forces' and their initial workplan (confidential)
+  description: Formal agreement between the INFRA-EOSC 5B projects to make the most of the synergies between our projects, including the list of 'task forces' and their initial workplan
+  level: Confidential
 
 - id: 1.12
   name: Financial report 1
   partner: DESY
   date: 2020-12-29
-  description: Total cumulative expenditure of ExPaNDS partners on the project up to the 31.12.2020 (confidential)
+  description: Total cumulative expenditure of ExPaNDS partners on the project up to the 31.12.2020
+  level: Confidential
 
 - id: 1.13
   name: Financial report 2

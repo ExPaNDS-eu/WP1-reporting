@@ -1,6 +1,7 @@
 
 <script>
 
+  // button 'Top' when scrolling
   //from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
   var mybutton = document.getElementById("scrollBtn");
 
@@ -19,6 +20,19 @@
     document.documentElement.scrollTop = 0;
   }
 
+
+  //to toggle lines in deliverables table
+  $(document).ready(function(){
+    $('tr.delivered').click(function(){
+      if ($(this).next().hasClass('toggled-row')) {
+          $(this).next().toggle();
+          $(this).css('background-color', $color-fade);
+        }
+      });
+    });
+
+
+  // to toggle dates in peb minutes
   //from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_treeview
   var toggler = document.getElementsByClassName("caret");
   var i;

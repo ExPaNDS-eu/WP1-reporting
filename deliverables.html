@@ -38,9 +38,16 @@ title: Deliverables
         <tr>
       {% endif %}
           <td>{{ del.id }}</td>
-          <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="({{ del.link | replace:'https://doi.org/', '' }})"></a>{% endif %}</td>
+          <td>{{ del.name }}</td>
           <td>{{ del.partner }}</td>
           <td class='date'>{{ del.date | date_to_string }}</td>
+        </tr>
+        <tr class='toggled-row'>
+          <td colspan="4">
+            <strong>Dissemination level:</strong> {% if del.level %} {{ del.level }} {% else %} Public {% endif %} <br>
+            {% if del.link %}<strong>DOI:</strong> <a href="{{ del.link }}">{{ del.link | replace:'https://doi.org/', '' }}</a><br>{% endif %}
+            {% if del.description %}<strong>Description:</strong> {{ del.description }}{% endif %}
+          </td>
         </tr>
     {% endfor %}
   </table>
