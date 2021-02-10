@@ -84,11 +84,13 @@
   name: Financial report 2
   partner: DESY
   date: 2021-12-31
+  level: Confidential
 
 - id: 1.14
   name: Financial report 3
   partner: DESY
   date: 2022-12-31
+  level: Confidential
 
 - id: 2.1
   name: Draft extended data policy framework for Photon and Neutron RIs
@@ -332,3 +334,4 @@
   name: POPD - Requirement No. 1
   partner: DESY
   date: 2020-02-29
+  level: Confidential
