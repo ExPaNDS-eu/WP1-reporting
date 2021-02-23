@@ -6,168 +6,202 @@
 - id: 1.1
   name: Consortium coordination and project administration
   partner: DESY
+  description: "The aim of this task is to coordinate the project team and administer the project in such a way as to ensure that the results are delivered with high quality within the time and budget constraints.<br>• Ensure establishing project structures and mechanisms at the project partners;<br>• Ensure efficient communication between project partners (see task 1.4);<br>• Conflict resolution;<br>• Preparing the periodic activity reports requested by the EC;<br>• Supporting the preparation of the EC reviews;<br>• Meeting support and follow-up (e.g. recorder of minutes);<br>• Guidance concerning IPR issues (Intellectual Property Right Management)."
 
 - id: 1.2
   name: Financial management
   partner: DESY
+  description: "This task monitors resources and financial expenditure, including external financial transactions (e.g. buying-in 3rd party services or invoicing services delivered to 3rd party). It prepares the periodic financial reports to be delivered to the EC. They will include:<br>• Individual financial statements for each beneficiary and for the reporting period concerned;<br>• Explanatory information on the use of project resources;<br>• Periodic summary financial statement consolidating the claimed Community contribution of all the beneficiaries."
 
 - id: 1.3
   name: Project Quality Assurance
   partner: PSI
+  description: "The objective of this task is to establish and enforce effective management and quality procedures that will result in high quality project deliverables. The main activities are:<br>• Definition of a Quality Plan (tools, metrics), including specific measures to follow up the fulfilment of KPIs;<br>• Encouraging and verifying that standards, procedures and metrics are defined, applied and evaluated;<br>• Defining rules for professional software development applied by the work packages;<br>• Definition of the process and procedures to:<br>&emsp;o Assess the work and achievements of the different WPs,<br>&emsp;o Review deliverables and reports,<br>&emsp;o Verify fulfilment of milestones,<br>&emsp;o Monitoring the risk and develop contingency plans,<br>&emsp;o Monitoring ethics and gender equality."
 
 - id: 1.4
   name: Internal communication
   partner: DESY
+  description: "This task aims at ensuring and monitoring the communication between the WP and the project partners in order to achieve the project objectives on time and within the budget constraints.<br>• Setting up project boards and other project management elements and defining communication channels between those structures;<br>• Providing and enforcing seamless communication between work packages;<br>• Ensuring that there is clear and effective communication between partners; to detect management and technical issuesas early as possible and bring them to resolution;<br>• Providing the necessary communication tools for reporting, sharing of documentation, software and tools;<br>• Providing the necessary (video, audio) conference tools;<br>• Monitoring ongoing communication (e.g. meeting schedules, minutes) and performing corrective actions if necessary."
 
 - id: 1.5
   name: Coordination with PaNOSC and EOSC
   partner: EGI
+  description: "This task synchronizes activities of ExPaNDS with EOSC structures in general and PaNOSC in particular. Activities include, but are not limited to:<br>• participating in the EOSC Stakeholder Forum;<br>• working with EOSC technical working groups in the areas of the ExPaNDS work packages;<br>• working with the EOSC Executive Board to provide EOSC Compliant services;<br>• liaising with other successful projects in INFRAEOSC-05b to coordinate their work in developing the EOSC;<br>• Alignment of the general architecture of the ExPaNDS services with the EOSC architecture including EOSC portals, EOSC Marketplace etc."
 
 - id: 1.6
   name: Sustainability plans
   partner: PSI
+  description: "This task will provide general best practice recommendations to enable the project’s work packages to make their work sustainable beyond the end of the lifetime of the project. Furthermore, the task is monitoring sustainability activities of the different work packages and provides advices in cases needed."
 
 - id: 1.7
   name: Coordination of boards
   partner: DESY
+  description: "This task will coordinate boards, like the Collaboration Board, the Technical Advisory Board and the EOSC Liaison Group. In particular it will oversee the selection of board members in accordance with the Grant Agreement and the Collaboration Agreement. The task will organise board meetings, it will provide input for board members from within the project and in return it will communicate board suggestions to the project members and it will follow up on the implementation of those suggestions."
 
 - id: 1.8
   name: DMPs for the project and ethics of handling data
   partner: DESY
+  description: "This task will develop a Data Management Plan for the project, including treatment after the end of the project’s lifetime. It comprises ORD pilot-related topics like description of data that will be collected, processed and/or generated, methodology and standards that will be applied, whether data will be shared/made open access and how data will be curated and preserved. The task also addresses:<br>• Security and authorised access;<br>• Monitoring the treatment of any personal data;<br>• Acknowledging provenance (when necessary);<br>• Anonymising scientific data (related to humans)."
 
 - id: 2.1
   name: Alignment of policies
   partner: PSI
   end-date: 2021-08-31
+  description: "Relevant Research Infrastructures have a variety of data policies and practices, typically building on the PaNdata Common Policy Framework (2011), and on later activities in CALIPSOplus. This task will review current data policies and revise this framework within the policy recommendation of the EOSC and FAIR data principles. Further factors on data policy, for example, IPR and data licensing, commercial data, and sensitive data (e.g. GDPR) will also be considered. The task will work closely with PaNOSC, participating in a policy workshop and other consultation exercises."
 
 - id: 2.2
   name: Data management planning and DMP
   partner: HZB
   start-date: 2020-03-01
+  description: "As the science domains, instruments and techniques vary across national RI experiments, each experiment should describe its approach to providing FAIR data via a tailored Data Management Plan (DMP). This would give details on the metadata collected, the approach to data storage and release, and intended approach to data management for derived data. The DMP can then be used to guide the collection and validation of data and metadata and its subsequent publication and use. Much of the additional cost of developing DMPs for experiments can be mitigated by taking a common approach for a facility and its instruments, and by automatically populating metadata information based on the proposal and instrument information. We propose to develop a systematic approach to the development of DMPs within national RIs. This would include considering outcomes of various international working groups as the Commission’s Expert Group on FAIR data, the RDA Active Data Management Plans, IGs and related WGs, as well as the PaNOSC DMP templates for experiments. We would also consider tools for DMP, such as for example using <a href='https://rdmorganiser.github.io/'>Research Data Management Organiser (RDMO)</a>.<br>Thus we make recommendation on a common DMP framework for national RIs, considering knowledge sources and related roles and activities for DMP relevant information, and then develop a common DMP template for use within RIs, aligned to that of PANOSC, which can be tailored to particular instruments and scientific methods. We then develop and trial an approach to active DMPs, integrating the DMP information into data lifecycle and metadata collections, and within the RDMO tool for policy enforcement and reporting."
 
 - id: 2.3
   name: Mainstreaming of standards for data management
   partner: ALBA
   end-date: 2022-05-31
+  description: "To enable FAIR access to data for users and re-users of data, consistent open metadata standards should be used. However, Photon and Neutron RIs use a variety of metadata standards and formats. A survey of the current use and requirement of metadata within RIs will be undertaken and recommendations on best practice on metadata standards for Findability, Accessibility, Interoperability and Reusability will be developed for the benefit of Photon and Neutron service providers and the wider science user community. This will be undertaken by developing a common metadata framework on different aspects of metadata and other practices required for FAIR data, and in close interaction with the development of detailed metadata ontologies and implementations in data catalogue and API services in WP3, and for use in WP4, coordinating closely with PaNOSC. The framework include recommendations to profile RI metadata to publish RIs data into common EOSC data catalogues e.g. OpenAire-Zenodo, EUDat-B2Find, consider the use of common metadata formats and standards, such as schema.org, and promoting cross-search between RIs catalogues published in the EOSC Portal.<br>Further, common metadata will promote data reuse, with increased contextual and provenance metadata, supporting the whole data lifecycle, in preservation, and considering the use of relationships with ontologies for provenance and preservation, such as PROV-O and PREMIS. The metadata framework will take into account the software environment where data were produced and the environment required to reuse the data, also the events on data lifecycle such as data creation, validation or verification. This task will provide an draft framework early in the project, for use in WP3 and WP4, and a revised recommendation late in the project."
 
 - id: 2.4
   name: Persistent Identifier infrastructure
   partner: UKRI
   start-date: 2020-09-01
   end-date: 2022-02-28
+  description: "Persistent Identifiers (PIDs) are used for data publishing within some existing RIs. We will promote PIDs within the community, sharing best practices in their use and citation by user communities, and on mapping from the metadata framework to PID provider metadata. We will work with projects such as OpenAire Advance (OpenAire Graph) and FREYA (PID Graph) to contribute to the cross referencing of PID information into a graph of connections. Further, we will explore how work on PIDs for additional resources (e.g. instruments, software, samples) could be used within the Photon and Neutron communities."
 
 - id: 2.5
   name: Quality assurance and certification schemes for data repositories
   partner: UKRI
   start-date: 2020-09-01
   end-date: 2022-08-31
+  description: "Certification schemes for quality data repositories (e.g. CoreTrustSeal) and assessment schemes for FAIR data are now emerging. This task will assess these schemes and profile their application to the Photon and Neutron community, and will lead an open self-assessment exercise of the national research infrastructures against these schemes. The task will work closely with the successful project within INFRAEOSC-05-c, which includes the objective of developing a certification scheme for evaluating FAIR data sharing and publication. We would evaluate how the collected metadata and associated data management procedures contribute to certification and what can be learned from related standards (e.g. CoreTrustSeal, ISO Standard 16363 Information package, PREMIS) and self-assessment against the appropriate parts of the certification standard to achieve FAIR data principles."
 
 - id: 2.6
   name: Uptake of FAIR data practices
   partner: UKRI
+  description: "Advocacy of the use of FAIR data practice will need to be tailored to different stakeholder groups, in order to be most effective. In particular we will target the following groups: <br>• Senior management and steering bodies;<br>• instrument scientists and other facilities staff;<br>• user groups and specific science communities.<br> We will prepare promotional material and presentations, highlighting the benefits of FAIR data, including user case studies and stories, developing domain specific guidance and training on benefits and rewards of FAIR data within national RIs, working closely with WP5 and WP6 within workshops and outreach. We will also work closely with the competency centre in FAIRsFAIR to make recommendations for RIs to incentivise the use of FAIR data in policies, DMPs and citations, and also consider the skills and competency framework specifically for national RIs."
 
 - id: 3.1
   name: Coordinate metadata catalogue services
   partner: PSI
   end-date: 2020-10-31
+  description: "Perform landscape analysis on the current usage and approaches to metadata catalogues at ALBA, DESY, DLS, ELETTRA, HZB, MAX IV, PSI and SOLEIL. Based on the landscape analysis and requirements defined in WP2 a gap analysis will provide the necessary input to develop a roadmap towards harmonised and federated metadata catalogue services. A workshop will be performed at M6 with WP2 and WP4 to align requirements and specification of services. Coordinating this task and compatibility with PaNOSC and the EOSC-hub will be essential and a key success factor to the three projects (PaNOSC, EOSC-hub and ExPaNDS)."
 
 - id: 3.2
   name: Develop an EU PaN ontology
   partner: Diamond
   start-date: 2020-02-01
   end-date: 2021-08-12
+  description: "Develop ontologies for main application domains of Photon and Neutron science to standardise the metadata used in metadata catalogues based on requirements defined in WP2. This will ensure that federated EOSC metadata catalogues are not only based on a common syntax, but also on a common semantics. The ontology itself will be provided as an EOSC service using existing tools to document and make ontologies accessible (e.g NeOn, Knoodle, Protégé, Swoop). Development of the ontology will be closely linked to the existing NeXus file format and its further developments (PSI, ISIS and DLS have leading roles in the specification and implementation of NeXus). Photon and Neutron-related ontologies provided by NeXus will be used and extended. In a similar way existing ontologies (such as those provided by NIST) should be taken into account."
 
 - id: 3.3
   name: Implement ontologies in metadata catalogues
   partner: PSI
   start-date: 2020-08-01
   end-date: 2022-08-31
+  description: "The defined ontologies will be implemented in different data catalogues (e.g. ICAT at UKRI and SciCat at PSI). To foster the federation of local services a reference implementation will be provided on the basis of the NeXus format. These will result in a European standard with international impact, and as such provides the basis for APIs and interoperability. The latter activities will be aligned with the PaNOSC initiative."
 
 - id: 3.4
   name: Coordinate metadata catalogues and data life cycle
   partner: HZB
   start-date: 2021-08-01
+  description: "Based on the roadmap defined in task 3.1 the national sites will deploy the developed standards and processes. The WP will help to coordinate these activities by providing best practices and cross-site support. Technical and user interface related information will be documented and provided as input for WP5 to facilitate training. The coordination process will be continued until the end of the project."
 
 - id: 3.5
   name: Integrate metadata catalogue services into EOSC
   partner: MaxIV
   start-date: 2021-08-01
+  description: "The different metadata catalogues will be integrated into the PaNOSC federated metadata catalogue and provided as a service on EOSC-hub. Access to metadata catalogues will be facilitated by Umbrella-ID (federated AAI services for Photon and Neutron RIs)."
 
 - id: 3.6
   name: Training material
   partner: SOLEIL
   start-date: 2021-08-01
+  description: "These will be used by WP5 to develop training material for facility staff responsible for data lifecycle management and provide training materials for scientific users.<br>A training plan and material will be developed to ensure training and deployment of solutions, to ensure sustainability of support and operations in the context of EOSC."
 
 - id: 4.1
   name: Kick-off meeting
   partner: DESY
   end-date: 2020-02-29
+  description: "To be organised in conjunction with WP1 to define roles and process to coordinate between RIs, keep NGIs informed and connected to EOSC coordination. Expected outcome: list of roles, identities and meeting structure to deliver an operational framework with associated documentation."
 
 - id: 4.2
   name: Select candidate EOSC data analysis services
   partner: DESY
   start-date: 2020-02-01
   end-date: 2020-08-31
+  description: "Select candidate data analysis services by evaluating their impact on the broadest Photon and Neutron European community, as well as their readiness for integration into the EOSC-hub using PaNOSC services. Simultaneously evaluate the current readiness of EOSC and PaNOSC services. This will involve attending PaNOSC and other related activities to acquire the necessary knowledge to adapt the candidate services for integration into EOSC-hub."
 
 - id: 4.3
   name: Alignment of PaNOSC services
   partner: Diamond
   start-date: 2020-02-01
   end-date: 2021-08-31
+  description: "Provide input to, and negotiate with, PaNOSC and other related activities to develop the alignment needed for the integration of data analysis services developed at the national RIs."
 
 - id: 4.4
   name: PaN reference data sets
   partner: UKRI
   start-date: 2020-08-01
   end-date: 2021-02-28
+  description: "Identify, prepare and publish Photon and Neutron reference data sets, which can be used to adapt, align and validate the Prototype Data Analysis Services."
 
 - id: 4.5
   name: Testing and validation framework
   partner: MaxIV
   start-date: 2020-06-01 # updated - ref:2020-08-01
   end-date: 2021-08-31
+  description: "Establish a continuous test and validation framework which assures that the data analysis services can be validated against the reference data sets. This will serve to make sure that the services are working correctly as the different prototypes are adapted by the various partners."
 
 - id: 4.6
   name: Prototype data analysis services
   partner: SOLEIL
   start-date: 2020-08-01
   end-date: 2022-02-28
+  description: "Adapt the candidate data analysis services to comply with the EU Photon and Neutron Ontologies provided via metadata catalogue services implemented in WP3. Adapt the candidate data analysis services to the APIs, standards and data lifecycle management guidelines provide by WP3. Adapt the candidate data analysis services to use EOSC services such as browser driven remote desktops and Jupyter analysis services."
 
 - id: 4.7
   name: Deploy data analysis services into the EOSC-hub
   partner: DESY
   start-date: 2021-02-01
   end-date: 2022-12-31
+  description: "Develop validation criteria for deployment of the data analysis services within EOSC. Test the services by inviting test candidates from the user community to use them and provide feedback to the developers. Feed necessary adjustments back to the developers, keeping in mind the application of the service is intended for a wider scope than the prototype case. Anchor the outcome of task T.4.6 within the national RIs organisation and report back the results to WP1. To ensure consistent development of data analysis services, provide well documented usage examples to WP5 which demonstrate the mainstreaming of standards for data management and certification schemes for data repositories, and all relevant supporting activities within the data analysis services."
 
 - id: 5.1
   name: Organising at national RIs a series of staff and users training events
   partner: SOLEIL
   # start-date updated - ref: 2020-08-01
+  description: "The purpose of this task is to promote the outcomes of the catalogues and services provided by ExPaNDS for EOSC by organising a series of events.<br>• Task 5.1.1 Workshop(s) to promote FAIR principles. This would cover the benefits of Open Data, data lifecycle, collecting metadata for Photon and Neutron RIs, tools for storing and archiving data, data publishing, DOIs and Data Citation. (M12)<br>• Task 5.1.2 Workshop(s) to develop common rules and best practices between national RI’s which build on previous work (e.g. PaNdata) and harmonise the provision of the EOSC services. (M12)<br>• Task 5.1.3 Workshop/meeting(s) to educate and train developers and facility staff on how to deploy and support their own workflows enabling a long term viability and sustainability of the data analysis services. This activity will be organized and performed in close collaboration with WP3 and WP4. (M25)<br>• Task 5.1.4 Workshop to educate and train metadata catalogue services within data management and data life cycle management including Photon and Neutron Ontologies developed in WP3 (M34)<br>• Task 5.1.5 Workshop/meeting(s) to educate and train Photon and Neutron users in the use of the data analysis services. This activity will be organized and performed in close collaboration with WP4 (M35)<br>A total of 6 workshops will be organised by ExPaNDS partners and associates, as event providers. The dedicated budget will include all usual cost related to the organisation (room rental, catering for meals, and travel expenses for the lecturers, ...). Depending on the location of the workshop at the different RIs, there will be a level of recharge between partners in the delivery of these activities."
 
 - id: 5.2
   name: Evaluation of available e-platforms and provision of a training demonstrator
   partner: HZDR
   # start-date updated - ref: 2021-04-01
   end-date: 2021-08-31
+  description: "The purpose of this task is to contact the e-platforms providers (ESRF for PaNOSC and EGI for EOSC-hub) to define together the prerequisites to maximise and expand the use of the platforms as appropriate. WP2, WP3 and WP4 will work closely with WP5 and WP6 to deliver tailored specification for each of the online trainings.<br>The output will be a definition of the most suitable training materials in accordance with the requirements and recommendations made by the targeted e-platform providers.<br>A demonstrator for using e-learning platforms will be developed and provided (D5.2)."
 
 - id: 5.3
   name: Collection, Preparation and Publishing of Training Material
   partner: SOLEIL
   # start-date updated - ref: 2021-04-01
+  description: "The purpose of this task is to provide the training materials to foster the uptake of ExPaNDS services in the existing e-learning platforms. WP5 will support the collection of the material provided by the technical work packages WP2, WP3 and WP4 and prepare and publish the training material. This will ensure training material, such as Moodles, Wikimedias, modules and so on is disseminated in a consistent form:<br>• FAIR data guidelines, common rules and best practices for the Photon and Neutron community (Task 2.6, WP2);<br>• Standard dataset definition (WP3) and Photon and Neutron reference data sets (WP4);<br>• Long term viability and sustainability of the data analysis services developed by ExPaNDS (Task 4.5, WP4);<br>• etc.<br>This task will be strongly correlated to the actions related to the development of WP2, WP3 and WP4."
 
 - id: 5.4
   name: Monitoring and Measuring of training effectiveness
   partner: HZDR
   start-date: 2021-08-01
+  description: "In connection with the various workshops and training activities WP5 will gather user feedback in the form of surveys and usage statistics. This task will be performed closely together with WP2, WP3, WP4 and WP6. The outcome will be collated, analysed and presented in the form of a final report."
 
 - id: 6.1
   name: ExPaNDS internal and external communications strategy and delivery
   partner: Diamond
+  description: "This work package will facilitate the flow of information amongst all project members and partners by using a cloud platform for communicating and sharing information.<br>Within the first month of the project a detailed communication and dissemination plan (D6.1) will be developed. This will include tasks associated with the dissemination and exploitation of results.<br>Whilst WP1 will take the lead on management and reporting, WP6 will put into place the necessary communication tools to support an efficient management and contribute high-quality graphics and infographics for adequately displaying project achievements, e.g. for reporting purposes.<br>WP6 will coordination all external communications and will provide support to all WPs for their various dissemination and communication activities.<br>Internal communication tools using the most performant cloud-based technology (SLACK, Office 365 or other) will be put into place within the first months of the collaboration and will be curated throughout the project’s duration.<br>External communications will encompass a range of activities from the development of tools for external presentation, e.g. standard presentation to introduce the ExPaNDS project, template for Powerpoint presentations, poster, roll-up, to the conception and organisation of dissemination events.<br>Within the first few months, a website will be set up to present the project and, as soon as data is available, results will be displayed in an accessible, searchable and visual way. Being aware of the persisting gender imbalance in the target community, which continues to be dominated by men, particular care will be taken to balance role models in any promotional literature that will be created.<br>In addition, a well-coordinated social media strategy will be developed in collaboration with all partners and observers to ensure swift and effective cascade of information.<br>A major activity of WP6 will be the design and organisation of a dedicated European user meeting promoting the achievements of ExPaNDS and offering focused tutorials to enable users to fully benefit of the work having been performed by the consortium. This event will be co-organised by other European initiatives such as LEAPS, PaNOSC, LENS and others.<br>To spread the project achievements beyond the borders of Europe, the WP6 partners will identify suitable large international conferences such as Synchrotron Radiation Instrumentation, Gordon X-ray Science or Neutron conferences where the EOSC services could be presented. On a case by case basis, attendance and/ or sponsorship will be decided upon. The goal is to be present at 15+ events in the form of trade stands, presentations or posters. As part of the communications strategy WP6 will regularly provide contributions to key websites like lightsources.org, wayforlight.eu, interactions.org and neutronsources.org."
 
 - id: 6.2
   name: ExPaNDS' marketing and communication toolbox
   partner: Diamond
+  description: "An important activity right from project start will be the development of a full brand with associated style guide and relevant templates (logo, presentation, banners, conference folders, giveaways etc) for both internal and external communication use.<br>The WP6 participants will assist the technical WP2-3-4 in the creation of a graphical presentation (infographic, maps and figures) of their metrics and Key Performance Indicators linked to ensure that their output is clearly communicated and widely disseminated using traditional channels as well as social media (see Task 6.1).<br>The marketing tool box will also include a standard information sheet on ExPaNDS and on the benefits of Open Data for RI users. A document highlighting the vision of ExPaNDS for EOSC, discussing the roadmap to reach the goals and announcing training events will be designed, targeting software engineers, managers and librarians of national RIs."
 
 - id: 6.3
   name: Formulation and dissemination of metrics and refinement of KPIs
   partner: Diamond
+  description: "We propose to develop a taxonomy strategy in collaboration with the relevant technical work packages and to support their ontology requirements.<br>In addition, a metrics will be developed in order to enable an efficient monitoring of the project’s KPIs. The WP leader will ensure that these metrics are meaningful, accessible and are widely reported on global platforms such as www.lightsources.org, www.interactions.org, www.wayforlight.eu and www.neutronsources.org to serve as best practice examples for the target groups of these platforms.<br>The metrics will be developed in line with the taxonomy strategy and will also reflect milestones in data management.<br>The achievements of ExPaNDS evaluated against these metrics and the KPIs will be unveiled every year on WorldScience Day. In addition, we propose to use the American Association for the Advancement of Science and the European Science forum (ESOF) to highlight the importance the European Open Science Cloud and the importance of PaNOSC as well as ExPaNDS and their transformative impact.<br>A style will be designed for the collaboration to ensure information is well presented which then will be filtered in all communications and literature produced."

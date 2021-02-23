@@ -21,12 +21,11 @@
   }
 
 
-  //to toggle lines in deliverables table
+  //to toggle lines in deliverables and tasks table
   $(document).ready(function(){
-    $('tr.delivered').click(function(){
+    $('tr.clickable').click(function(){
       if ($(this).next().hasClass('toggled-row')) {
           $(this).next().toggle();
-          $(this).css('background-color', $color-fade);
         }
       });
     });

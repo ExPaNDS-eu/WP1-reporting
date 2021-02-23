@@ -13,7 +13,7 @@ th, td {
 }
 
 // deliverables and milestones tables
-.del tr:hover {
+.clickable:hover {
   background-color: $color-fade;
 }
 
@@ -32,6 +32,10 @@ td.date {
 
 tr.toggled-row {
   display: none;
+}
+
+tr.dow {
+  font-style: italic;
 }
 
 // tasks tables

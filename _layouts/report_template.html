@@ -89,9 +89,13 @@
   {% if id[0] == page.wp %}
     {% if page.progress[num] != "" or page.next-steps[num] != "" %}
       <table class="task">
-        <tr>
+        <tr class="clickable">
           <th>T{{ task.id }}</th>
           <th>{{ task.name }} ({{ task.partner }})</th>
+        </tr>
+        <tr class="toggled-row dow">
+          <td>Task:</td>
+          <td>{{ task.description }}</td>
         </tr>
         {% if page.progress[num] != "" %}
           <tr>
