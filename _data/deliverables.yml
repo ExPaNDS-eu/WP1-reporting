@@ -235,7 +235,6 @@
   name: Communication and Dissemination Plan
   partner: Diamond
   date: 2019-11-30
-  status: late
 
 - id: 6.02
   name: Project website
@@ -283,6 +282,7 @@
   name: ExPaNDS presentation for conferences
   partner: Diamond
   date: 2021-02-28
+  status: late
 
 - id: 6.11
   name: ExPaNDS presentation for conferences
