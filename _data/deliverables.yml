@@ -53,6 +53,7 @@
   name: Periodic progress report
   partner: DESY
   date: 2021-02-28
+  status: late
 
 - id: 1.09
   name: Periodic progress report
@@ -173,11 +174,15 @@
   name: Guidelines for implementing the national RI’s analysis services within the EOSC
   partner: DESY
   date: 2021-02-28
+  status: late
 
 - id: 4.2
   name: Photon and Neutron reference data sets prepared and published
   partner: UKRI
   date: 2021-02-28
+  link: https://doi.org/10.5281/zenodo.4558708
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4558708.svg
+  description: 11 reference datasets for different techniques in photon and neutron science, each linked to a data analysis pipeline
 
 - id: 4.3
   name: Testing and Validation framework
@@ -230,6 +235,7 @@
   name: Communication and Dissemination Plan
   partner: Diamond
   date: 2019-11-30
+  status: late
 
 - id: 6.02
   name: Project website
