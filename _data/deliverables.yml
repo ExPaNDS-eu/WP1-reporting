@@ -173,8 +173,10 @@
 - id: 4.1
   name: Guidelines for implementing the national RI’s analysis services within the EOSC
   partner: DESY
-  date: 2021-02-28
-  status: late
+  date: 2021-03-29
+  link: https://doi.org/10.5281/zenodo.4569421
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4569421.svg
+  description: organisational framework and best practices for our national RIs data analysis services to integrate into EOSC
 
 - id: 4.2
   name: Photon and Neutron reference data sets prepared and published
