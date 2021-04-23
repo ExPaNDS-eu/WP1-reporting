@@ -237,16 +237,21 @@
   name: Communication and Dissemination Plan
   partner: Diamond
   date: 2019-11-30
+  link: https://doi.org/10.5281/zenodo.4714675
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4714675.svg
 
 - id: 6.02
   name: Project website
   partner: Diamond
   date: 2019-11-30
+  description: "<a href='https://expands.eu'>expands.eu</a>"
 
 - id: 6.03
   name: Social media strategy
   partner: Diamond
   date: 2019-11-30
+  link: https://doi.org/10.5281/zenodo.4714909
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4714909.svg
 
 - id: 6.04
   name: Vision and roadmap documents for key audiences
@@ -304,6 +309,8 @@
   name: Engage science communicators based at PAN RIs
   partner: Diamond
   date: 2020-02-29
+  link: https://doi.org/10.5281/zenodo.4714952
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4714952.svg
 
 - id: 6.15
   name: Dedicated European user meeting focused on ExPaNDS
@@ -335,6 +342,8 @@
   partner: Diamond
   date: 2019-10-31
   description: Introduction to a common taxonomy approach for PaN national RIS, including the first two levels of a scientific discipline taxonomy and techniques for Photon science
+  link: https://doi.org/10.5281/zenodo.4714999
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4714999.svg
 
 - id: 6.20
   name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
