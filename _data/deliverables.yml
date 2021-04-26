@@ -47,7 +47,7 @@
   partner: PSI
   link: https://doi.org/10.5281/zenodo.3715279
   date: 2020-03-18
-  description: The Sustainability policy report describes the mechanisms and policies the ExPaNDS collaboration is envisioning to make the achievements of their activities available after the end of the project funding period. 
+  description: Describtion of the mechanisms and policies the collaboration is envisioning to make the achievements of their activities available after the end of the project funding period. 
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.3715279.svg
 
 - id: 1.08
@@ -174,7 +174,7 @@
 - id: 4.1
   name: Guidelines for implementing the national RI’s analysis services within the EOSC
   partner: DESY
-  date: 2021-03-29
+  date: 2021-03-29  
   link: https://doi.org/10.5281/zenodo.4569421
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4569421.svg
   description: organisational framework and best practices for our national RIs data analysis services to integrate into EOSC
@@ -258,6 +258,7 @@
   name: Vision and roadmap documents for key audiences
   partner: Diamond
   date: 2020-12-19
+  description: Summarised overview of main achievements in 2020 and its roadmap for the upcoming years.
   link: https://doi.org/10.5281/zenodo.4424770
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4424770.svg
 
@@ -328,6 +329,7 @@
   name: Standard Information sheet on ExPaNDS and the benefits of Open Data for RI users
   partner: Diamond
   date: 2020-04-30
+  description: ExPaNDS second infographics about 'The Benefit of Open Data'. 
   link: https://doi.org/10.5281/zenodo.3780053
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.3780053.svg
 
