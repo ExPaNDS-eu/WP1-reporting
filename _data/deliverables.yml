@@ -31,6 +31,7 @@
   name:	Communication Plan (internal + EC)
   partner: DESY
   date: 2019-12-23
+  description: Internal communication plan, which complements the Communication and Dissemination plan in regards to information needs, specific roles, tools and EC communication.
   link: https://doi.org/10.5281/zenodo.4468898
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4468898.svg
 
@@ -47,7 +48,7 @@
   partner: PSI
   link: https://doi.org/10.5281/zenodo.3715279
   date: 2020-03-18
-  description: Describtion of the mechanisms and policies the collaboration is envisioning to make the achievements of their activities available after the end of the project funding period. 
+  description: Description of the mechanisms and policies the collaboration is envisioning to make the achievements of their activities available after the end of the project funding period. 
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.3715279.svg
 
 - id: 1.08
@@ -153,6 +154,7 @@
   name: Report on status, gap analysis and roadmap towards harmonised and federated metadata catalogues for EU national Photon and Neutron RIs
   partner: PSI
   date: 2020-11-03
+  description: Describtion of the status, a gap analysis, and a roadmap required to achieve harmonised and federated (meta)data catalogues within EOSC of the participating national PaN RIs.
   link: https://doi.org/10.5281/zenodo.4146819
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4146819.svg
 
@@ -206,6 +208,7 @@
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
   date: 2020-08-31
+  description: Document presents initial coordination activities in the 'training' area of the project. 
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4468983.svg
   link: https://doi.org/10.5281/zenodo.4468983
 
@@ -238,6 +241,7 @@
   name: Communication and Dissemination Plan
   partner: Diamond
   date: 2019-11-30
+  description: The strategy defines an integrated approach to communication throughout the project and efforts will be scheduled around the work packages, once core communication channels have been established and reach the main audiences.
   link: https://doi.org/10.5281/zenodo.4714675
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4714675.svg
 
@@ -258,7 +262,7 @@
   name: Vision and roadmap documents for key audiences
   partner: Diamond
   date: 2020-12-19
-  description: Summarised overview of main achievements in 2020 and its roadmap for the upcoming years.
+  description: Summarised overview of main achievements in 2020 and the roadmap for the upcoming years.
   link: https://doi.org/10.5281/zenodo.4424770
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4424770.svg
 
