@@ -54,8 +54,10 @@
 - id: 1.08
   name: Periodic progress report
   partner: DESY
-  date: 2021-02-28
-  status: late
+  date: 2021-04-30
+  link: https://doi.org/10.5281/zenodo.4727981
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.4727981.svg
+  description: Description of the work done by the ExPaNDS project during its first reporting period, from 09/2019 to 02/2021.
 
 - id: 1.09
   name: Periodic progress report
@@ -176,7 +178,7 @@
 - id: 4.1
   name: Guidelines for implementing the national RI’s analysis services within the EOSC
   partner: DESY
-  date: 2021-03-29  
+  date: 2021-03-29
   link: https://doi.org/10.5281/zenodo.4569421
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4569421.svg
   description: Organisational framework and best practices for our national RIs data analysis services to integrate into EOSC.
@@ -208,7 +210,7 @@
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
   date: 2020-08-31
-  description: Document presents initial coordination activities in the 'training' area of the project. 
+  description: Document presents initial coordination activities in the 'training' area of the project.
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4468983.svg
   link: https://doi.org/10.5281/zenodo.4468983
 
@@ -333,7 +335,7 @@
   name: Standard Information sheet on ExPaNDS and the benefits of Open Data for RI users
   partner: Diamond
   date: 2020-04-30
-  description: ExPaNDS second infographics about 'The Benefit of Open Data'. 
+  description: ExPaNDS second infographics about 'The Benefit of Open Data'.
   link: https://doi.org/10.5281/zenodo.3780053
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.3780053.svg
 
