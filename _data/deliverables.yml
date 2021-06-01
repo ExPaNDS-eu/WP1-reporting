@@ -164,6 +164,7 @@
   name: Release V1.0 ExPaNDS ontology available as an EOSC online service
   partner: PSI
   date: 2021-05-31
+  status: late
 
 - id: 3.3
   name: Demonstrate ICAT and SciCat released with APIs compatible to ExPaNDS federated EOSC services
