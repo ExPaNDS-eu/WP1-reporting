@@ -164,7 +164,7 @@
   name: Release V1.0 ExPaNDS ontology available as an EOSC online service
   partner: PSI
   date: 2021-06-04
-  description: Description of the first version of the ExPaNDS ontologies: PaNET, NeXusOntology and PaNmapping
+  description: Description of the first version of the ExPaNDS ontologies - PaNET, NeXusOntology and PaNmapping
   link: https://doi.org/10.5281/zenodo.4806026
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4806026.svg
 
