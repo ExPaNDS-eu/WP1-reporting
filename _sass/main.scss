@@ -29,6 +29,10 @@ footer {
   text-align: justify;
 }
 
+b {
+  color:inherit;
+}
+
 h1, th, strong, .focus {
   font-weight: bold;
   color: $color-strong;
