@@ -22,7 +22,8 @@
     {% if date <= ref_date_2 and
       date >= ref_date_1 and
       id[0] == page.wp and
-      del.status <> 'late' %}
+      del.status == 'accepted' or
+      del.status == 'delivered' %}
       {% assign num = num | plus: 1 %}
       <tr>
         <td>{{ del.id }}</td>
@@ -52,7 +53,9 @@
   {% for del in site.data.deliverables %}
     {% assign date = del.date | date: "%Y-%m-%d" %}
     {% assign id = del.id | split: "." %}
-    {% if del.status == 'late' and
+    {% if date <= ref_date_2 and
+      del.status <> 'delivered' and
+      del.status <> 'accepted' and
       id[0] == page.wp %}
       {% assign num = num | plus: 1 %}
       <tr class='late'>

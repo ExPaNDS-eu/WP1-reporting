@@ -3,32 +3,36 @@
   name: Kick-off meeting
   partner: DESY
   date: 2019-09-11
+  status: achieved
 
 - id: 2
   name: Management structure implemented
   partner: DESY
   date: 2019-10-31
+  status: achieved
 
 - id: 3
   name: Report on quality assurance, risks and contingency plan
   partner: DESY
   date: 2020-02-05
+  status: achieved
 
 - id: 4
   name: General architecture ready
   partner: DESY
   date: 2020-03-05
+  status: achieved
 
 - id: 5
   name: First all-hands meeting organised
   partner: DESY
   date: 2020-11-11
+  status: achieved
 
 - id: 6
   name: Successful completion of mid-term
   partner: DESY
   date: 2021-02-28
-  status: late
 
 - id: 7
   name: Second all-hands meeting organised
@@ -49,6 +53,7 @@
   name: Production of draft FAIR data framework
   partner: UKRI
   date: 2020-12-14
+  status: achieved
 
 - id: 11
   name: Production of final FAIR data framework
@@ -89,21 +94,25 @@
   name: Website
   partner: Diamond
   date: 2019-09-16
+  status: achieved
 
 - id: 19
   name: Social media strategy
   partner: Diamond
   date: 2019-11-29
+  status: achieved
 
 - id: 20
   name: Vision and roadmap documents
   partner: Diamond
   date: 2020-12-19
+  status: achieved
 
 - id: 21
   name: Reference from community websites
   partner: Diamond
   date: 2020-10-13
+  status: achieved
 
 - id: 22
   name: AAAS & ESOF attendance
@@ -124,6 +133,7 @@
   name: Collaboration network of communicators in place with regular updates
   partner: Diamond
   date: 2020-02-29
+  status: achieved
 
 - id: 26
   name: Dedicated European user meeting
@@ -134,11 +144,13 @@
   name: Standard ExPaNDS information sheet
   partner: Diamond
   date: 2020-04-30
+  status: achieved
 
 - id: 28
   name: Infographic and KPI presentation
   partner: Diamond
   date: 2020-02-29
+  status: achieved
 
 - id: 29
   name: Taxonomy strategy

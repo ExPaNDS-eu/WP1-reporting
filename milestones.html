@@ -28,10 +28,10 @@ title: Milestones
     {% for mil in sorted_mil %}
       {% assign date = mil.date | date: "%Y-%m-%d" %}
       {% if date <= date_today %}
-        {% if mil.status == 'late' %}
-          <tr class='late'>
-        {% else %}
+        {% if mil.status == 'achieved' %}
           <tr class='delivered'>
+        {% else %}
+          <tr class='late'>
         {% endif %}
       {% else %}
         <tr>

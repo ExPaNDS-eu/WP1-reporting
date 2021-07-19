@@ -29,10 +29,11 @@ title: Deliverables
     {% for del in sorted_del %}
       {% assign date = del.date | date: "%Y-%m-%d" %}
       {% if date <= date_today %}
-        {% if del.status == 'late' %}
-          <tr class='late'>
-        {% else %}
+        {% if del.status == 'delivered' or
+        del.status == 'accepted' %}
           <tr class='delivered clickable'>
+        {% else %}
+          <tr class='late'>
         {% endif %}
       {% else %}
         <tr>
@@ -46,7 +47,8 @@ title: Deliverables
           <td colspan="4">
             <strong>Dissemination level:</strong> {% if del.level %} {{ del.level }} {% else %} Public {% endif %} <br>
             {% if del.link %}<strong>DOI:</strong> <a href="{{ del.link }}">{{ del.link | replace:'https://doi.org/', '' }}</a><br>{% endif %}
-            {% if del.description %}<strong>Description:</strong> {{ del.description }}{% endif %}
+            {% if del.description %}<strong>Description:</strong> {{ del.description }}<br>{% endif %}
+            <strong>Status:</strong> Delivered {% if del.status == 'delivered' %}but not yet{% else %}and{% endif %} accepted by the European Commission
           </td>
         </tr>
     {% endfor %}
