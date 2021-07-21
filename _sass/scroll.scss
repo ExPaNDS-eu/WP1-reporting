@@ -22,7 +22,7 @@
   height: $page-height;
   overflow: scroll;
 
-  p {
+  p, ul {
     padding-right: $padding-std;
   }
 }
