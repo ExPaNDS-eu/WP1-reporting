@@ -48,7 +48,7 @@ title: Deliverables
             <strong>Dissemination level:</strong> {% if del.level %} {{ del.level }} {% else %} Public {% endif %} <br>
             {% if del.link %}<strong>DOI:</strong> <a href="{{ del.link }}">{{ del.link | replace:'https://doi.org/', '' }}</a><br>{% endif %}
             {% if del.description %}<strong>Description:</strong> {{ del.description }}<br>{% endif %}
-            <strong>Status:</strong> Delivered {% if del.status == 'delivered' %}but not yet{% else %}and{% endif %} accepted by the European Commission
+            <strong>Status:</strong> Delivered <strong>{% if del.status == 'delivered' %}but not yet{% else %}and{% endif %} accepted</strong> by the European Commission
           </td>
         </tr>
     {% endfor %}
