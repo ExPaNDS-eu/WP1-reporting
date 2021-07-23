@@ -61,8 +61,8 @@
 - id: 1.08
   name: Periodic progress report
   partner: DESY
-  date: 2021-04-30
-  link: https://doi.org/10.5281/zenodo.4727981
+  date: 2021-07-23
+  link: https://doi.org/10.5281/zenodo.4727980
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4727981.svg
   description: Description of the work done by the ExPaNDS project during its first reporting period, from 09/2019 to 02/2021.
   status: delivered
