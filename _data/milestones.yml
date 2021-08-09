@@ -32,7 +32,8 @@
 - id: 6
   name: Successful completion of mid-term
   partner: DESY
-  date: 2021-02-28
+  date: 2021-07-29
+  status: achieved
 
 - id: 7
   name: Second all-hands meeting organised
