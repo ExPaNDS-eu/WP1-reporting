@@ -12,6 +12,7 @@ title: Deliverables
 </div>
 
 {% assign date_today = "today" | date: "%Y-%m-%d" %}
+{% capture date_upcoming %}{{ date_today | date: '%s' | plus: 2634544 | date: "%Y-%m-%d" }}{% endcapture %} <!-- 1. convert to Unix timestamp 2. add 1 month + 1 week in Epoch time (epochconvert.com) to the date_upcoming 3. convert date into a string -->
 {% assign sort_type = "date, id, partner" | split: ", " %}
 
 {% for stype in sort_type %}
@@ -35,6 +36,8 @@ title: Deliverables
         {% else %}
           <tr class='late'>
         {% endif %}
+      {% elsif date <= date_upcoming %}
+        <tr class='upcoming'>
       {% else %}
         <tr>
       {% endif %}

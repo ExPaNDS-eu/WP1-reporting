@@ -25,6 +25,10 @@ tr.late {
   background-color: $color-red;
 }
 
+tr.upcoming {
+  background-color: $color-orange;
+}
+
 td.date {
   white-space: nowrap;
   text-align: center;
