@@ -108,7 +108,7 @@
 
 - id: 3.5
   name: Integrate metadata catalogue services into EOSC
-  partner: MaxIV
+  partner: MAX IV
   start-date: 2021-08-01
   description: "The different metadata catalogues will be integrated into the PaNOSC federated metadata catalogue and provided as a service on EOSC-hub. Access to metadata catalogues will be facilitated by Umbrella-ID (federated AAI services for Photon and Neutron RIs)."
 
@@ -147,7 +147,7 @@
 
 - id: 4.5
   name: Testing and validation framework
-  partner: MaxIV
+  partner: MAX IV
   start-date: 2020-06-01 # updated - ref:2020-08-01
   end-date: 2021-08-31
   description: "Establish a continuous test and validation framework which assures that the data analysis services can be validated against the reference data sets. This will serve to make sure that the services are working correctly as the different prototypes are adapted by the various partners."
