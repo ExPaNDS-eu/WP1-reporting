@@ -132,8 +132,11 @@
 - id: 2.3
   name: Final data policy framework for Photon and Neutron RIs
   partner: PSI
-  date: 2021-08-31
+  date: 2021-08-20
   description: Framework to support and guide our PaN facilities in their data policy enhancements to FAIR.
+  link: https://doi.org/10.5281/zenodo.5205825
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5205825.svg
+  status: delivered
 
 - id: 2.4
   name: DMPs for Photon and Neutron RIs
