@@ -1,0 +1,102 @@
+# called items with site.data.wps
+- id: "1"
+  name: Management and sustainability
+  partners:
+    - DESY
+    - PSI
+    - EGI
+  participation:
+    - 45
+    - 18
+    - 12
+  description: "WP1 implements the project’s governance and management structure, undertaking overall project administration to ensure successful achievement of the project’s objectives. It also addresses the general technical architecture and the sustainability of the provided services for EOSC."
+
+- id: "2"
+  name: Enabling FAIR data for EU Photon and Neutron national RIs
+  partners:
+    - UKRI
+    - ALBA
+    - HZB
+    - PSI
+    - SOLEIL
+    - Elettra
+  participation:
+    - 45
+    - 18
+    - 18
+    - 15
+    - 12
+    - 11
+  description: "WP2 extends and deepens the adoption and use of FAIR data principles within the Photon and Neutron community to allow publication and access of national RI data and services within the EOSC."
+
+- id: "3"
+  name: EOSC data catalogue services for EU Photon and Neutron national RIs
+  partners:
+    - PSI
+    - Diamond
+    - HZB
+    - MAX IV
+    - DESY
+    - UKRI
+    - SOLEIL
+    - EGI
+    - ALBA
+    - Elettra
+  participation:
+    - 45
+    - 36
+    - 18
+    - 18
+    - 9
+    - 9
+    - 9
+    - 9
+    - 9
+    - 7
+  description: "WP3 delivers EOSC data catalogue services for RIs to provide access as a one-stop-shop for scientific facility users, academics and the general public to find and exploit research data."
+
+- id: "4"
+  name: EOSC data analysis services for EU Photon and Neutron national RIs
+  partners:
+    - DESY
+    - PSI
+    - Diamond
+    - UKRI
+    - SOLEIL
+    - HZDR
+    - MAX IV
+    - EGI
+    - ALBA
+    - Elettra
+  participation:
+    - 45
+    - 18
+    - 18
+    - 18
+    - 18
+    - 18
+    - 18
+    - 9
+    - 9
+    - 7
+  description: "WP4 provides the coordination, adaptation and alignment of existing data analysis services at national RIs within the EOSC. The services delivered provide users, academics and the public with the ability to run analysis workflows against the EOSC-aligned data services."
+
+- id: "5"
+  name: Provide training activities through EOSC platforms
+  partners:
+    - SOLEIL
+    - HZDR
+    - EGI
+  participation:
+    - 36
+    - 18
+    - 7
+  description: "WP5 organises workshops and delivers training materials through the e-learning platforms made available on the EOSC. Training is organised in cooperation with other EOSC related activities."
+
+- id: "6"
+  name: Dissemination and outreach
+  partners:
+    - Diamond
+  participation:
+    - 45
+  description: "WP6 supports and promotes the ExPaNDS initiative in Europe and beyond and promotes Open Data and FAIR data principles to users and other RIs around the world."

@@ -1,44 +1,135 @@
 ---
 layout: default
 ---
-
-<h1>TIMELINE</h1>
-<table class="timeline">
-  <tr>
-    <th colspan="4">2019</th>
-    <th colspan="12">2020</th>
-    <th colspan="12">2021</th>
-    <th colspan="12">2022</th>
-    <th colspan="2">2023</th>
-  </tr>
-  <tr class="update">
-    {% assign all_months = "9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,1,2" | split: "," %}
-      {% for i in all_months %}
-        <td>{{ i }}</td>
+{% assign wp = site.data.wps | where: "id", page.wp %}
+{% for wp in wp %}
+  <h1>WP{{ wp.id }} - {{ wp.name }} </h1>
+  <p>{{ wp.description }}</p>
+  <p><strong>Lead partner: </strong> {{ wp.partners[0] }} </p>
+  <p><strong>Budgeted participation per partner: </strong></p>
+  <table>
+    <tr>
+      {% for partner in wp.partners %}
+        <th>{{ partner }}</th>
       {% endfor %}
-  </tr>
-  <tr>
-    {% assign num = 0 %}
-    {% for report in site.reports %}
-      {% if report.wp == page.wp %}
+    </tr>
+      {% for pms in wp.participation %}
+        <td class="date">{{ pms }} PMs</td>
+      {% endfor %}
+  </table>
+{% endfor %}
+<hr>
+<h1>Tasks</h1>
+<p>Progress in each of the work package's tasks are reported in this section, with regular updates, indicated by the dates. To view the original description of work of each task, as it is written in the project's description of work, you can click on the table header cells. Only the last update of the next steps is kept.</p>
+{% for task in site.data.tasks %}
+  {% assign id = task.id | split: "." %}
+  {% assign num = id[1] | minus: 1 %}
+  {% if id[0] == page.wp %}
+    <table class="task">
+      <tr class="clickable">
+        <th>T{{ task.id }}</th>
+        <th>{{ task.name }} ({{ task.partner }})</th>
+      </tr>
+      <tr class="toggled-row dow">
+        <td>Task:</td>
+        <td>{{ task.description }}</td>
+      </tr>
+      <tr>
+        <td>Progress:</td>
+        <td>
+          {% assign count = 0 %}
+          {% for report in site.reports %}
+            {% if report.wp == page.wp and report.progress[num] != "" %}
+              <strong>{{ report.date | date_to_string }}: </strong>{{ report.progress[num] }}<br>
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {% if count == 0 %}
+            Nothing to report yet
+          {% endif %}
+        </td>
+      </tr>
+      {% assign report = site.reports | where: "wp", page.wp | last %}
+      {% if report.next-steps[num] != "" %}
+        <tr>
+          <td>Next steps:</td>
+          <td>
+            <strong>{{ report.date | date_to_string }}: </strong>{{ report.next-steps[num] }}<br>
+          </td>
+        </tr>
+      {% endif %}
+    </table>
+  {% endif %}
+{% endfor %}
+
+<hr>
+<h1>Deliverables</h1>
+<p>"Accepted" deliverables are the ones approved by the European Commission and thus published in <a href='https://cordis.europa.eu/project/id/857641/results'>CORDIS</a> with other EU projects results.</p>
+<p>"Delivered" deliverables are the ones we submitted to the European Commission but are <b>not yet approved</b>. They can only be found in our <a href='https://zenodo.org/communities/expands/'>Zenodo community</a> for now.</p>
+<p>"Pending" deliverables are still in progress and were not yet submitted by the project to the European Commission.</p>
+<!-- DELIVERABLES with filters from _data/deliverables.yml -->
+{% assign date_today = "today" | date: "%Y-%m-%d" %}
+{% assign del_type = "accepted, delivered, pending" | split: ", " %}
+{% for dtype in del_type %}
+  {% assign num = 0 %}
+  {% assign dels = site.data.deliverables | where: "status", dtype %}
+  <table class="del">
+    <tr>
+      <th colspan="2">{{ dtype | capitalize }} deliverables</th>
+      <th>Partner</th>
+      <th>Date</th>
+    </tr>
+    {% for del in dels %}
+      {% assign id = del.id | split: "." %}
+      {% if id[0] == page.wp %}
         {% assign num = num | plus: 1 %}
-        <td colspan={{ report.timespan }}><a href="#gotoreport{{ num }}">Report #{{ num }}</a></td>
+        <tr>
+          <td>{{ del.id }}</td>
+          <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="(link)"></a>{% endif %}</td>
+          <td>{{ del.partner }}</td>
+          <td class='date'>{{ del.date | date_to_string }}</td>
+        </tr>
       {% endif %}
     {% endfor %}
-  </tr>
-  <!--
-  <tr class="invisible">
-    {% for i in (1..42) %}
-      <td>..</td>
-    {% endfor %}
-  </tr> -->
-</table>
+    {% if num == 0 %}
+      <tr>
+        <td colspan="4">
+          No {{ dtype }} deliverables at the moment
+        </td>
+      </tr>
+    {% endif %}
+  </table>
+{% endfor %}
 
-{% assign sorted_reports = site.reports | reverse %}
-{% for report in sorted_reports %}
-  {% if report.wp == page.wp %}
-    <hr id="gotoreport{{ num }}">
-    {{ report }}
-    {% assign num = num | minus: 1 %}
-  {% endif %}
+<hr>
+<h1>Milestones</h1>
+<!-- MILESTONES with filters from _data/milestones.yml -->
+{% assign mil_type = "achieved, pending" | split: ", " %}
+{% assign mils = site.data.milestones | where: "wp", page.wp %}
+{% for mtype in mil_type %}
+  {% assign num = 0 %}
+  {% assign mil = mils | where: "status", mtype %}
+  <table class="del">
+    <tr>
+      <th colspan="2">{{ mtype | capitalize }} milestones</th>
+      <th>Partner</th>
+      <th>Date</th>
+    </tr>
+    {% for mil in mil %}
+      {% assign num = num | plus: 1 %}
+      <tr>
+        <td>{{ mil.id }}</td>
+        <td>{{ mil.name }}{% if mil.link %} <a href="{{ mil.link }}"><img src="{{ mil.img }}" alt="(link)"></a>{% endif %}</td>
+        <td>{{ mil.partner }}</td>
+        <td class='date'>{{ mil.date | date_to_string }}</td>
+      </tr>
+    {% endfor %}
+    {% if num == 0 %}
+      <tr>
+        <td colspan="4">
+          No {{ mtype }} milestones at the moment
+        </td>
+      </tr>
+    {% endif %}
+  </table>
 {% endfor %}

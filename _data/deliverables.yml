@@ -71,6 +71,7 @@
   name: Periodic progress report
   partner: DESY
   date: 2023-02-28
+  status: pending
 
 - id: 1.10
   name: Data Management Plan
@@ -103,6 +104,7 @@
   date: 2021-12-31
   level: Confidential
   description: Total cumulative expenditure of ExPaNDS partners on the project up to the 31.12.2021.
+  status: pending
 
 - id: 1.14
   name: Financial report 3
@@ -110,6 +112,7 @@
   date: 2022-12-31
   level: Confidential
   description: Total cumulative expenditure of ExPaNDS partners on the project up to the 31.12.2022.
+  status: pending
 
 - id: 2.1
   name: Draft extended data policy framework for Photon and Neutron RIs
@@ -142,31 +145,37 @@
   name: DMPs for Photon and Neutron RIs
   partner: HZB
   date: 2021-11-30
+  status: pending
 
 - id: 2.5
   name: Advanced infrastructure for PIDs in Photon and Neutron RIs
   partner: UKRI
   date: 2022-02-28
+  status: pending
 
 - id: 2.6
   name: Self-evaluation Photon and Neutron RIs for FAIR data certification
   partner: UKRI
   date: 2022-08-31
+  status: pending
 
 - id: 2.7
   name: Final Recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
   date: 2022-05-31
+  status: pending
 
 - id: 2.8
   name: Active DMPs for Photon and Neutron RIs
   partner: HZB
   date: 2022-11-30
+  status: pending
 
 - id: 2.9
   name: Report on promotion of FAIR data within Photon and Neutron RIs
   partner: UKRI
   date: 2023-01-31
+  status: pending
 
 - id: 3.1
   name: Report on status, gap analysis and roadmap towards harmonised and federated metadata catalogues for EU national Photon and Neutron RIs
@@ -190,11 +199,13 @@
   name: Demonstrate ICAT and SciCat released with APIs compatible to ExPaNDS federated EOSC services
   partner: PSI
   date: 2022-02-28
+  status: pending
 
 - id: 3.4
   name:	Portfolio material to support training for target groups at all RIs
   partner: PSI
   date: 2022-03-31
+  status: pending
 
 - id: 4.1
   name: Guidelines for implementing the national RI’s analysis services within the EOSC
@@ -218,16 +229,19 @@
   name: Testing and Validation framework
   partner: MAX IV
   date: 2021-08-31
+  status: pending
 
 - id: 4.4
   name: Analysis Services Prototypes
   partner: SOLEIL
   date: 2022-02-28
+  status: pending
 
 - id: 4.5
   name: Deployment of Analysis Services for EOSC within the EOSC-hub
   partner: DESY
   date: 2022-12-31
+  status: pending
 
 - id: 5.1
   name: Annual report on training activities, workshops held, materials published and investigations performed
@@ -242,26 +256,31 @@
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
   date: 2021-08-31
+  status: pending
 
 - id: 5.3
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
   date: 2022-08-31
+  status: pending
 
 - id: 5.4
   name: Demonstrator for using of e-learning platforms
   partner: HZDR
   date: 2021-09-30
+  status: pending
 
 - id: 5.5
   name: Dedicated websites and e-platforms with the teaching material
   partner: SOLEIL
   date: 2022-08-31
+  status: pending
 
 - id: 5.6
   name: Report on lessons learned and future prospects for adopting best practices
   partner: HZDR
   date: 2023-01-31
+  status: pending
 
 - id: 6.01
   name: Communication and Dissemination Plan
@@ -300,16 +319,19 @@
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
   date: 2021-08-31
+  status: pending
 
 - id: 6.06
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
   date: 2022-04-30
+  status: pending
 
 - id: 6.07
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
   date: 2022-12-31
+  status: pending
 
 - id: 6.08
   name: ExPaNDS presentation for conferences
@@ -339,11 +361,13 @@
   name: ExPaNDS presentation for conferences
   partner: Diamond
   date: 2022-02-28
+  status: pending
 
 - id: 6.13
   name: ExPaNDS presentation for conferences
   partner: Diamond
   date: 2022-06-30
+  status: pending
 
 - id: 6.14
   name: Engage science communicators based at PAN RIs
@@ -357,11 +381,13 @@
   name: Dedicated European user meeting focused on ExPaNDS
   partner: Diamond
   date: 2020-10-31
+  status: pending
 
 - id: 6.16
   name: Dedicated European user meeting focused on ExPaNDS
   partner: Diamond
   date: 2022-02-28
+  status: pending
 
 - id: 6.17
   name: Standard Information sheet on ExPaNDS and the benefits of Open Data for RI users
@@ -393,6 +419,7 @@
   name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
   partner: Diamond
   date: 2021-08-31
+  status: pending
 
 - id: 1.71
   name: POPD - Requirement No. 1
