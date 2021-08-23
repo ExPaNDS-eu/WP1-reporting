@@ -20,7 +20,7 @@ layout: default
 {% endfor %}
 <hr>
 <h1>Tasks</h1>
-<p>Progress in each of the work package's tasks are reported in this section, with regular updates, indicated by the dates. To view the original description of work of each task, as it is written in the project's description of work, you can click on the table header cells. Only the last update of the next steps is kept.</p>
+<p>Progress in each of the work package's tasks are reported in this section, with regular updates, indicated by the dates. To view the original description of work of each task, as it is written in the project's description of work, you can click on the table header cells. Only the last update of the next steps is displayed.</p>
 {% for task in site.data.tasks %}
   {% assign id = task.id | split: "." %}
   {% assign num = id[1] | minus: 1 %}
@@ -40,7 +40,7 @@ layout: default
           {% assign count = 0 %}
           {% for report in site.reports %}
             {% if report.wp == page.wp and report.progress[num] != "" %}
-              <strong>{{ report.date | date_to_string }}: </strong>{{ report.progress[num] }}<br>
+              <strong>{{ report.date | date_to_string }}:</strong><br>{{ report.progress[num] }}<br>
               {% assign count = count | plus: 1 %}
             {% endif %}
           {% endfor %}
