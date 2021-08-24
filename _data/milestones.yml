@@ -79,9 +79,11 @@
 - id: 12
   name: Metadata catalogue release
   partner: PSI
-  date: 2021-08-31
-  status: pending
+  date: 2021-08-24
+  status: achieved
   wp: "3"
+  link: https://doi.org/10.5281/zenodo.5205909
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5205909.svg
 
 - id: 13
   name: Metadata catalogue as EOSC service
@@ -107,8 +109,8 @@
 - id: 16
   name: First (pilot) national training event organised and performed
   partner: SOLEIL
-  date: 2021-08-31
-  status: pending
+  date: 2020-10-02
+  status: achieved
   wp: "5"
 
 - id: 17
