@@ -19,6 +19,7 @@
   date: 2020-02-05
   status: achieved
   wp: "1"
+  comments: Please refer to deliverables 1.2 "<a href='https://doi.org/10.5281/zenodo.4457914'>Project Quality Assurance and Progress Monitoring Plan</a>" and 1.3 "<a href='https://doi.org/10.5281/zenodo.4457922'>Risk analysis and contingency plan</a>".
 
 - id: 4
   name: General architecture ready
@@ -26,6 +27,7 @@
   date: 2020-03-05
   status: achieved
   wp: "1"
+  comments: Please refer to deliverable 1.6 "<a href='https://doi.org/10.5281/zenodo.3697704'>General Architecture in relation to the EOSC services</a>".
 
 - id: 5
   name: First all-hands meeting organised
@@ -33,6 +35,7 @@
   date: 2020-11-11
   status: achieved
   wp: "1"
+  comments: ExPaNDS first all-hands meeting took place online from 9th to 11th of November 2020, jointly organised with PaNOSC. <a href=https://expands.eu/2020/11/24/panosc-and-expands-pan-eosc-symposium-and-annual-meeting-an-overview/>A newspiece</a> was released in our website, providing a summary of the event, links to presentations and recordings. The annual meeting was very informative for the common and different work both our projects are doing. The discussions will feed the mapping document ExPaNDS and PaNOSC WP1s are currently elaborating as well as the vision and roadmap upcoming deliverable (D6.4) WP6 is working on.
 
 - id: 6
   name: Successful completion of mid-term
@@ -40,6 +43,7 @@
   date: 2021-07-29
   status: achieved
   wp: "1"
+  comments: The mid-term review of ExPaNDS took place on the 08/06/2021. The Periodic Report was accepted by the EU services on the 29/07/2021.
 
 - id: 7
   name: Second all-hands meeting organised
@@ -68,6 +72,7 @@
   date: 2020-12-14
   status: achieved
   wp: "2"
+  comments: Please refer to deliverables 2.1 "<a href='https://doi.org/10.5281/zenodo.4014811'>Draft extended data policy framework for Photon and Neutron RIs</a>" and 2.2 "<a href='https://doi.org/10.5281/zenodo.4312825'>Draft recommendations for FAIR Photon and Neutron Data Management</a>".
 
 - id: 11
   name: Production of final FAIR data framework
@@ -84,6 +89,7 @@
   wp: "3"
   link: https://doi.org/10.5281/zenodo.5205909
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.5205909.svg
+  comments: With the primary goal of supporting PaN FAIR data catalogue services, we have developed a self-contained, stand-alone metadata catalogue release that facilities can download to test and try locally. The code is available in <a href='https://github.com/SciCatProject/scicatlive'>this repository</a> and documented <a href='https://doi.org/10.5281/zenodo.5205909'>here</a>.
 
 - id: 13
   name: Metadata catalogue as EOSC service
@@ -112,6 +118,7 @@
   date: 2020-10-02
   status: achieved
   wp: "5"
+  comments: The first online workshop series of ExPaNDS took place on the 1st and 2nd of October 2020. It consisted of 2 sessions of 1h30 each, spread over the 2 days and was aimed particularly at PaN instrument scientists and facility staff. We had 115 participants for the first day called "<a href='https://pan-training.hzdr.de/materials/fair-for-facilities'>FAIR for facilities</a>" and 87 participants for the second day, "<a href='https://pan-training.hzdr.de/materials/the-fair-experiment'>The FAIR Experiment</a>". Materials from both workshops are accessible in the PaN training catalogue.
 
 - id: 17
   name: Training websites and e-platforms online available
@@ -140,6 +147,7 @@
   date: 2020-12-19
   status: achieved
   wp: "6"
+  comments: Please refer to deliverable 6.4 "<a href='https://doi.org/10.5281/zenodo.4424770'>ExPaNDS vision and roadmap document</a>".
 
 - id: 21
   name: Reference from community websites
@@ -147,6 +155,7 @@
   date: 2020-10-13
   status: achieved
   wp: "6"
+  comments: WP6 is responsible to provide the tools and actions to increase the visibility and favour the exploitation of the project’s outputs and results. Through the creation of our own website and social media activity, we are also in regular contact with the communication teams at Photon and Neutron Research Infrastructures (PaN RIs) across Europe. This email distribution group currently contains over 20 contacts. This results in ExPaNDS featuring on various community websites, to give a few examples<br>• <a href='https://lightsources.org/?s=ExPaNDS'>lightsources.org</a><br>• <a href='https://cordis.europa.eu/event/id/148203-save-the-date-and-register-photon-and-neutron-eosc-symposium-panosc-expands-annual-meeting'>CORDIS</a><br>• <a href='https://www.eoscsecretariat.eu/search/node/expands'>EOSC secretariat</a><br>• <a href='https://www.egi.eu/events/save-the-dates-photon-and-neutron-eosc-symposium-the-panosc-expands-annual-meeting/'>EGI</a><br>• <a href='https://www.elettra.trieste.it/index.php?option=com_acesearch&view=search&query=ExPaNDS&Itemid=705&lang=en'>Elettra</a><br>• <a href='https://www.maxiv.lu.se/?s=ExPaNDS'>MAX IV</a><br>• <a href='https://www.cells.es/en/@@search?SearchableText=ExPaNDS'>ALBA</a><br>• <a href='https://www.synchrotron-soleil.fr/en/search/site/ExPaNDS'>Soleil</a><br>Finally during the early part of October ExPaNDS held two workshops on FAIR and these were also disseminated to our own community and several other communities. We were happy to manage for example an exposure in an NFFA-Europe internal notification and also a <a href='https://www.fairsfair.eu/events/expands-fair-workshops-%E2%80%93-1st-2nd-october-2020'>newspiece in the FAIRsFAIR website</a>.
 
 - id: 22
   name: AAAS & ESOF attendance
@@ -175,6 +184,7 @@
   date: 2020-02-29
   status: achieved
   wp: "6"
+  comments: Please refer to deliverable 6.14 "<a href='https://doi.org/10.5281/zenodo.4714952'>Engage science communicators based at PAN RIs</a>".
 
 - id: 26
   name: Dedicated European user meeting
@@ -189,6 +199,7 @@
   date: 2020-04-30
   status: achieved
   wp: "6"
+  comments: The standard information sheet on ExPaNDS is composed of the two videos and associated posters behind deliverables <a href='https://doi.org/10.5281/zenodo.3780053'>6.17</a> and <a href='https://doi.org/10.5281/zenodo.3757786'>6.18</a>. We chose this video & poster format to better disseminate online, at our facilities and on future events. A new tweet for this last release will come soon on @ExPaNDS_EU and on our website expands.eu.
 
 - id: 28
   name: Infographic and KPI presentation
