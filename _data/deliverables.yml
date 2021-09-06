@@ -255,8 +255,11 @@
 - id: 5.2
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
-  date: 2021-08-31
-  status: pending
+  date: 2021-09-01
+  status: delivered
+  description: Overview of training activities performed in the second year of the project and of the updated training plan.
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5468567.svg
+  link: https://doi.org/10.5281/zenodo.5468567
 
 - id: 5.3
   name: Annual report on training activities, workshops held, materials published and investigations performed
@@ -418,8 +421,9 @@
 - id: 6.20
   name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
   partner: Diamond
-  date: 2021-08-31
-  status: pending
+  date: 2021-09-01
+  status: delivered
+  description: Benchmarking of terminologies used within SRAO, EuroSciVoc and OECD subject vocabulary against the proposed PaN discipline taxonomy.
 
 - id: 1.71
   name: POPD - Requirement No. 1

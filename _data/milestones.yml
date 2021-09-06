@@ -211,6 +211,7 @@
 - id: 29
   name: Taxonomy strategy
   partner: Diamond
-  date: 2021-08-31
-  status: pending
+  date: 2021-09-01
+  status: achieved
   wp: "6"
+  comments: Please refer to deliverable 6.20 “<a href=''>Assistance to the development of the taxonomy strategy for the relevant data catalogues</a>”.
