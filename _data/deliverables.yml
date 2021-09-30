@@ -271,7 +271,10 @@
   name: Demonstrator for using of e-learning platforms
   partner: HZDR
   date: 2021-09-30
-  status: pending
+  status: delivered
+  description: Description of the training platform seen as most suitable for the PaN communities, being a combination of a catalogue and an e-learning platform.
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5171766.svg
+  link: https://doi.org/10.5281/zenodo.5171766
 
 - id: 5.5
   name: Dedicated websites and e-platforms with the teaching material
