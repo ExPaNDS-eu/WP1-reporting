@@ -46,7 +46,7 @@ Here all you need to know to maintain the site.
 2. The deliverable is written and reviewed.
 2. You reserve a DOI in Zenodo and send it to the author to be included in the deliverable.
 3. Once the document is reviewed internally and finalised, the author uploads .pdf and native version (or google doc link) in `Sharepoint > Deliverables`.
-4. You upload the .pdf version of the document in Zenodo and publish it. _Note: uploading .pdf is not FAIR at all, we should upload both .pdf and .odt (TBD)._
+4. You upload the .pdf version of the document in Zenodo and publish it. _Note: uploading .pdf is not FAIR at all, we should upload both .pdf and .odt (TBD)._ Careful, you need to add in the `Additional notes` a __disclaimer__ that it is not yet approved by the EC (see [ExPaNDS issue #28](https://github.com/ExPaNDS-eu/ExPaNDS/issues/28)). 
 2. You upload the .pdf version of the deliverable in the EC portal.
 2. You update the `Deliverables.xslx` table in `Sharepoint > Deliverables`.
 
@@ -58,6 +58,6 @@ Here all you need to know to maintain the site.
   link: https://doi.org/10.5281/zenodo.xxxxxxx
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg
 ```
-1. Update the date if needed to fit with the actual delivery date to the EC.
-2. Update the `status: delivered`.
-3. Add a `description`. Try to keep same tone / length as the other deliverables' descriptions, that is: short and standalone.
+4. Update the `date:` if needed to fit with the actual delivery date to the EC.
+5. Update the `status: delivered`.
+6. Add a `description`. Try to keep the same tone and length as the other deliverables' descriptions, that is: short and standalone.
