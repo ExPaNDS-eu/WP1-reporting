@@ -12,6 +12,10 @@ For local builds, you will need to install [Jekyll](https://jekyllrb.com/).
 ```
 # Maintenance
 Here all you need to know to maintain the site.
+- [Case 1: add PEB minutes](#case-1-add-peb-minutes)
+- [Case 2: submit a deliverable to the EC](#case-2-submit-a-deliverable-to-the-ec)
+- [Case 3: achieve a milestone](#case-3-achieve-a-milestone)
+- [Case 4: update a progress report](#case-4-update-a-progress-report)
 
 ### Case 1: add PEB minutes
 ##### Preliminary steps (off GitHub)
@@ -53,11 +57,33 @@ Here all you need to know to maintain the site.
 ##### Back to GitHub
 1. In `/_data` open `deliverables.yml`.
 2. Look for your deliverable, `id` being the deliverable number.
-3. Update its `link:` and `img:` properties using the links provided by Zenodo in `Target URL` and `Image URL`, respectively. Should be something like that:
+3. Update its `link` and `img` properties using the links provided by Zenodo in `Target URL` and `Image URL`, respectively. Should be something like that:
 ```
   link: https://doi.org/10.5281/zenodo.xxxxxxx
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg
 ```
-4. Update the `date:` if needed to fit with the actual delivery date to the EC.
-5. Update the `status: delivered`.
+4. Update the `date` if needed to fit with the actual delivery date to the EC.
+5. Update the `status` to `delivered`.
 6. Add a `description`. Try to keep the same tone and length as the other deliverables' descriptions, that is: short and standalone.
+
+### Case 3: achieve a milestone
+##### Preliminary steps (off GitHub)
+1. Once a milestone is considered achieved, upload any necessary __justification__ material to `SharePoint > Milestones`. Can be in Zenodo too if relevant ([see example here](https://expands-eu.github.io/WP1-reporting/milestones.html)).
+2. Agree on a __short justification text__ with the WP leader of this MS for the Commission.
+2. Tick the milestone box in the __EC portal__ and include the above justification in the comments box. 
+3. Update the `Milestones.xlsx` table in `Sharepoint > Milestones`.
+
+##### Back to GitHub
+1. In `/data_` open `milestones.yml`.
+2. Look for your milestone using the `id`. 
+4. Update the `date` if needed to fit with the actual achievement date.
+5. Update the `status` to `achieved`.
+6. Add in `comments` the justification, exactly as it was entered in the EC portal.
+3. (optional) Update its `link` and `img` properties using the links provided by Zenodo in `Target URL` and `Image URL`, respectively. Should be something like that:
+```
+  link: https://doi.org/10.5281/zenodo.xxxxxxx
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg
+```
+
+### Case 4: update a progress report
+_upcoming_
