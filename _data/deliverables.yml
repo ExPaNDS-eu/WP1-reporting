@@ -419,8 +419,11 @@
 - id: 6.21
   name: Promotional video
   partner: Diamond
-  date: 2021-05-31
-  status: pending
+  date: 2021-10-29
+  status: delivered
+  description: An <a href='https://vimeo.com/637958452'>8-minutes ExPaNDS video on FAIR data for Photon and Neutron science</a>, with beautiful aerial images of our members facilities, starring senior scientists and project members. 
+  link: https://doi.org/10.5281/zenodo.5616785
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5616785.svg
   
 - id: 6.22
   name: Librarian symposium report
