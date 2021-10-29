@@ -383,18 +383,6 @@
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4714952.svg
   status: accepted
 
-- id: 6.15
-  name: Dedicated European user meeting focused on ExPaNDS
-  partner: Diamond
-  date: 2020-10-31
-  status: pending
-
-- id: 6.16
-  name: Dedicated European user meeting focused on ExPaNDS
-  partner: Diamond
-  date: 2022-02-28
-  status: pending
-
 - id: 6.17
   name: Standard Information sheet on ExPaNDS and the benefits of Open Data for RI users
   partner: Diamond
@@ -428,6 +416,36 @@
   status: delivered
   description: Benchmarking of terminologies used within SRAO, EuroSciVoc and OECD subject vocabulary against the proposed PaN discipline taxonomy.
 
+- id: 6.21
+  name: Promotional video
+  partner: Diamond
+  date: 2021-05-31
+  status: pending
+  
+- id: 6.22
+  name: Librarian symposium report
+  partner: Diamond
+  date: 2021-10-31
+  status: pending
+  
+- id: 6.23
+  name: User interviews
+  partner: Diamond
+  date: 2021-12-31
+  status: pending
+  
+- id: 6.24
+  name: Senior level engagement
+  partner: Diamond
+  date: 2022-06-30
+  status: pending
+  
+- id: 6.25
+  name: PaN communities use cases
+  partner: Diamond
+  date: 2022-12-31
+  status: pending
+  
 - id: 1.71
   name: POPD - Requirement No. 1
   partner: DESY
