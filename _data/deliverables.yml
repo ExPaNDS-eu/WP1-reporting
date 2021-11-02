@@ -415,6 +415,8 @@
   date: 2021-09-01
   status: delivered
   description: Benchmarking of terminologies used within SRAO, EuroSciVoc and OECD subject vocabulary against the proposed PaN discipline taxonomy.
+  link: https://doi.org/10.5281/zenodo.5639003
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5639003.svg
 
 - id: 6.21
   name: Promotional video
