@@ -49,7 +49,7 @@ title: Milestones
         <tr class='toggled-row'>
           <td colspan="4">
             <strong>Status:</strong> Achieved<br>
-            {% if mil.link %}<strong>DOI:</strong> <a href="{{ del.link }}">{{ mil.link | replace:'https://doi.org/', '' }}</a><br>{% endif %}
+            {% if mil.link %}<strong>DOI:</strong> <a href="{{ mil.link }}">{{ mil.link | replace:'https://doi.org/', '' }}</a><br>{% endif %}
             {% if mil.comments %}<strong>Comments:</strong> {{ mil.comments }}<br>{% endif %}
           </td>
         </tr>
