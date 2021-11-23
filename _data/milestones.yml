@@ -48,9 +48,10 @@
 - id: 7
   name: Second all-hands meeting organised
   partner: DESY
-  date: 2021-11-30
-  status: pending
+  date: 2021-10-26
+  status: achieved
   wp: "1"
+  comments: ExPaNDS second PaN EOSC symposium took place online on 26th of October 2021, jointly organised with PaNOSC. A <a href='https://expands.eu/2021/11/23/overview-of-the-2nd-panosc-and-expands-pan-eosc-symposium/'>newspiece</a> was released in our website, providing a summary of the event, links to presentations and recordings.<br>In addition to presenting six use cases showcasing the work carried out in both projects, we had the chance to discuss with the LEAPS and LENS chairs directly about the relevance of what we deliver and the future of our project's outcomes. This confirmed the growing attraction of data management in European photon and neutron facilities strategy and our role in supporting them making FAIR data and open science possible.
 
 - id: 8
   name: Third all-hands meeting organised
