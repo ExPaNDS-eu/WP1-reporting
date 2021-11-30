@@ -228,8 +228,11 @@
 - id: 4.3
   name: Testing and Validation framework
   partner: MAX IV
-  date: 2021-08-31
-  status: pending
+  date: 2021-11-30
+  status: delivered
+  link: https://doi.org/10.5281/zenodo.5718671
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5718671.svg
+  description: Framework for testing and validating ExPaNDS services against reference datasets 
 
 - id: 4.4
   name: Analysis Services Prototypes
