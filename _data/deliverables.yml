@@ -145,7 +145,10 @@
   name: DMPs for Photon and Neutron RIs
   partner: HZB
   date: 2021-11-30
-  status: pending
+  status: delivered
+  link: https://doi.org/10.5281/zenodo.5636096
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5636096.svg
+  description: From which sources, who, and when can the questions in the PaN DMP template be answered?
 
 - id: 2.5
   name: Advanced infrastructure for PIDs in Photon and Neutron RIs
