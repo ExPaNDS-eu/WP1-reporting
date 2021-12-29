@@ -101,10 +101,10 @@
 - id: 1.13
   name: Financial report 2
   partner: DESY
-  date: 2021-12-31
+  date: 2021-12-29
   level: Confidential
   description: Total cumulative expenditure of ExPaNDS partners on the project up to the 31.12.2021.
-  status: pending
+  status: delivered
 
 - id: 1.14
   name: Financial report 3
