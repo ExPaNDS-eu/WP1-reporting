@@ -7,36 +7,19 @@ title: PEB meetings
 <ul id="toggled-pebs">
   <li><span class="caret">Click here to go to a specific date.</span>
     <ul class="nested">
-      <li><span class="caret">2021</span>
-        <ul class="nested">
-          {% for peb in sorted_pebs %}
-            {% assign minyear = peb.date | date: '%Y' %}
-            {% if minyear == '2021' %}
-              <li><a href="#goto{{ peb.date | date: '%Y-%m-%d' }}">{{ peb.date | date_to_string }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </li>
-      <li><span class="caret">2020</span>
-        <ul class="nested">
-          {% for peb in sorted_pebs %}
-            {% assign minyear = peb.date | date: '%Y' %}
-            {% if minyear == '2020' %}
-              <li><a href="#goto{{ peb.date | date: '%Y-%m-%d' }}">{{ peb.date | date_to_string }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </li>
-      <li><span class="caret">2019</span>
-        <ul class="nested">
-          {% for peb in sorted_pebs %}
-            {% assign minyear = peb.date | date: '%Y' %}
-            {% if minyear == '2019' %}
-              <li><a href="#goto{{ peb.date | date: '%Y-%m-%d' }}">{{ peb.date | date_to_string }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </li>
+      {% assign pyears = "2019, 2020, 2021, 2022" | split: ", " | reverse %}
+      {% for pyear in pyears %}
+        <li><span class="caret">{{ pyear }}</span>
+          <ul class="nested">
+            {% for peb in sorted_pebs %}
+              {% assign minyear = peb.date | date: '%Y' %}
+              {% if minyear == pyear %}
+                <li><a href="#goto{{ peb.date | date: '%Y-%m-%d' }}">{{ peb.date | date_to_string }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
     </ul>
   </li>
 </ul>
