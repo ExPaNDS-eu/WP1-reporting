@@ -55,7 +55,7 @@ Here all you need to know to maintain the site.
 2. You update the `Deliverables.xslx` table in `Sharepoint > Deliverables`.
 
 ##### Back to GitHub
-1. In `/_data` open [`deliverables.yml`](./_data/deliverables.yml).
+1. In `/_data` open [`deliverables.yml`](/_data/deliverables.yml).
 2. Look for your deliverable, `id` being the deliverable number.
 3. Update its `link` and `img` properties using the links provided by Zenodo in `Target URL` and `Image URL`, respectively. Should be something like that:
 ```
@@ -77,7 +77,7 @@ Here all you need to know to maintain the site.
 3. Update the `Milestones.xlsx` table in `Sharepoint > Milestones`.
 
 ##### Back to GitHub
-1. In `/data_` open [`milestones.yml`](./_data/milestones.yml).
+1. In `/data_` open [`milestones.yml`](/_data/milestones.yml).
 2. Look for your milestone using the `id`. 
 4. Update the `date` if needed to fit with the actual achievement date.
 5. Update the `status` to `achieved`.
@@ -89,4 +89,16 @@ Here all you need to know to maintain the site.
 ```
 
 ### Case 4: update a progress report
-_upcoming_
+##### Preliminary steps (off GitHub)
+1. Have a dedicated WP meeting with one WP leader, her/his co-leader, her/his deputy if applicable, the technical coordinator and the project coordinator.
+2. Copy the corresponding google doc ([WP1](https://docs.google.com/document/d/1ymU246DcV1b7D9SysG118XGTWjb5eRahYDYaJJqn0qw/edit), [WP2](https://docs.google.com/document/d/1pWi4GbYhTpfsG038g0I5cnNIL0jsPoNsBZ8CHPsFZ7Q/edit), [WP3](https://docs.google.com/document/d/1LSIUyphkwdMb93nT-nkdXmvyD3_EfRTnjTR7W99iVEE/edit), [WP4](https://docs.google.com/document/d/1RsJoziami1WjDf_W1jTJYTJ6lzjfFyCUzyAGxGraKQ0/edit), [WP5](https://docs.google.com/document/d/1rIGVZwXJCvXCmAUqb4BXQRrirgz-68Gt2IQuKmIsOWw/edit) or [WP6](https://docs.google.com/document/d/1CiaAajO8MTKt4gA1-wZXjETutNLp0SfytGkGDWuP4Ow/edit)) in a new doc of your own, to have editing rights.
+2. Take minutes in your google doc and agree on final text with participants.
+
+##### Back to GitHub
+1. In `/_reports`, duplicate [`template.html`](/_reports/template.html).
+2. Rename it with date of the meeting and WP in standard format `YYYY-MM-DD-WPx.html`.
+3. Remove first line `published: false`.
+4. Fill in WP number in `wp: "x"`
+6. In `progress:`, [as you can see from the template](/_layouts/report_wp_template.html), it's a list, so `progress[0]` (what comes after first hyphen) will go into the task 1 sub-section, `progress[1]` into the task 2 section, etc. You need to copy from the google doc each progress section of each task into the corresponding list item.
+7. Same with `next-steps:`, copy from the google doc each next steps section of each task into the corresponding list item. If a next steps section is empty for a task, leave the list item emtpy.
+8. And that's it, check the rendering looks good and push to master.
