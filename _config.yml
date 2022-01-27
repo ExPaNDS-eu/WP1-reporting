@@ -16,12 +16,6 @@ defaults:
 
   - scope:
       path: "" #root
-      type: "reports"
-    values:
-      layout: "report_template"
-
-  - scope:
-      path: "" #root
       type: "reports-wp"
     values:
       layout: "report_wp_template"
@@ -37,15 +31,6 @@ defaults:
       type: "pebs-wp"
     values:
       layout: "peb_wp_template"
-
-
-# the following does not work (nice try):
-  - scope:
-      path: ""
-      type: "data.tasks"
-    values:
-      start-date: 2019-09-01
-      end-date: 2022-08-31
 
 
 # configuration Variables
