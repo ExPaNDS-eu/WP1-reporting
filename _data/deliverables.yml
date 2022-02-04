@@ -436,8 +436,11 @@
 - id: 6.22
   name: Librarian symposium report
   partner: Diamond
-  date: 2021-10-31
-  status: pending
+  date: 2022-02-04
+  status: delivered
+  description: Discussion points and key insights gained during the ExPaNDS Librarian Symposium of September 2021.
+  link: https://doi.org/10.5281/zenodo.5973069
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5973069.svg
   
 - id: 6.23
   name: User interviews
