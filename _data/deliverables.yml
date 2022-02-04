@@ -410,7 +410,7 @@
   name: Assistance to the development of the taxonomy strategy for the relevant data catalogues
   partner: Diamond
   date: 2019-10-31
-  description: Introduction to a common taxonomy approach for PaN national RIS, including the first two levels of a scientific discipline taxonomy and techniques for Photon science
+  description: Introduction to a common taxonomy approach for PaN national RIS, including the first two levels of a scientific discipline taxonomy and techniques for Photon science.
   link: https://doi.org/10.5281/zenodo.4714999
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4714999.svg
   status: accepted
@@ -442,8 +442,9 @@
 - id: 6.23
   name: User interviews
   partner: Diamond
-  date: 2021-12-31
-  status: pending
+  date: 2022-02-04
+  status: delivered
+  description: A series of 7 interviews to present the benefits of ExPaNDS from different perspectives and key stakeholders.
   
 - id: 6.24
   name: Senior level engagement
@@ -462,5 +463,5 @@
   partner: DESY
   date: 2020-02-29
   level: Confidential
-  description: Explanation of what personal data is collected and how we are handling it in the project
+  description: Explanation of what personal data is collected and how we are handling it in the project.
   status: accepted
