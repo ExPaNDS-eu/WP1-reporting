@@ -242,6 +242,7 @@
   partner: SOLEIL
   date: 2022-02-28
   status: pending
+  link: https://doi.org/10.5281/zenodo.6305000
 
 - id: 4.5
   name: Deployment of Analysis Services for EOSC within the EOSC-hub
