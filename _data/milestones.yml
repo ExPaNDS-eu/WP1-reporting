@@ -96,8 +96,9 @@
   name: Metadata catalogue as EOSC service
   partner: PSI
   date: 2022-02-28
-  status: pending
+  status: achieved
   wp: "3"
+  comments: To increase the visibility of Photon and Neutron data in the researchers and EOSC community, we published the PSI data repository as an EOSC resource (https://marketplace.eosc-portal.eu/services/psi-public-data-repository). This will enable EOSC users to find the resource and redirect them to the PSI public data repository, where they will be able to browse published data.
 
 - id: 14
   name: Analysis services prototypes
