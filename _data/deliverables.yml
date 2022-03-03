@@ -153,8 +153,11 @@
 - id: 2.5
   name: Advanced infrastructure for PIDs in Photon and Neutron RIs
   partner: UKRI
-  date: 2022-02-28
-  status: pending
+  date: 2022-03-03
+  status: delivered
+  link: https://doi.org/10.5281/zenodo.5905351
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5905351.svg
+  description: General guidance on the adoption and use of persistent identifiers in PaN facilities
 
 - id: 2.6
   name: Self-evaluation Photon and Neutron RIs for FAIR data certification
