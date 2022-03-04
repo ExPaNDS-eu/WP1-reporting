@@ -326,7 +326,7 @@
   name: Vision and roadmap documents for key audiences
   partner: Diamond
   date: 2020-12-19
-  description: Summarised overview of main achievements in 2020 and the roadmap for the upcoming years.
+  description: Summarised overview of main achievements in 2020 and the roadmap for the upcoming years
   link: https://doi.org/10.5281/zenodo.4424770
   img: https://zenodo.org/badge/DOI/10.5281/zenodo.4424770.svg
   status: accepted
@@ -334,8 +334,11 @@
 - id: 6.05
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
-  date: 2021-08-31
-  status: pending
+  date: 2022-03-04
+  status: delivered
+  link: https://doi.org/10.5281/zenodo.6327817
+  img: https://zenodo.org/badge/DOI/10.5281/zenodo.6327817.svg
+  description: Sponsorship and presentation of the reflectometry case study at the SXNS 2022
 
 - id: 6.06
   name: ExPaNDS representation material for relevant large international conferences
