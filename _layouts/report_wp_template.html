@@ -85,7 +85,11 @@ layout: default
         {% assign num = num | plus: 1 %}
         <tr>
           <td>{{ del.id }}</td>
-          <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="(link)"></a>{% endif %}</td>
+          {% if del.doi %}
+            <td>{{ del.name }} <a href="https://doi.org/{{ del.doi }}"><img src="https://zenodo.org/badge/DOI/{{ del.doi }}.svg" alt="(link)"></a></td>
+          {% else %}
+            <td>{{ del.name }}{% if del.link %} <a href="{{ del.link }}"><img src="{{ del.img }}" alt="(link)"></a>{% endif %}</td>
+          {% endif %}
           <td>{{ del.partner }}</td>
           <td class='date'>{{ del.date | date_to_string }}</td>
         </tr>
@@ -119,7 +123,11 @@ layout: default
       {% assign num = num | plus: 1 %}
       <tr>
         <td>{{ mil.id }}</td>
-        <td>{{ mil.name }}{% if mil.link %} <a href="{{ mil.link }}"><img src="{{ mil.img }}" alt="(link)"></a>{% endif %}</td>
+        {% if mil.doi %}
+          <td>{{ mil.name }} <a href="https://doi.org/{{ mil.doi }}"><img src="https://zenodo.org/badge/DOI/{{ mil.doi }}.svg" alt="(link)"></a></td>
+        {% else %}
+          <td>{{ mil.name }}{% if mil.link %} <a href="{{ mil.link }}"><img src="{{ mil.img }}" alt="(link)"></a>{% endif %}</td>
+        {% endif %}
         <td>{{ mil.partner }}</td>
         <td class='date'>{{ mil.date | date_to_string }}</td>
       </tr>

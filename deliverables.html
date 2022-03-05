@@ -50,7 +50,11 @@ title: Deliverables
         <tr class='toggled-row'>
           <td colspan="4">
             <strong>Dissemination level:</strong> {% if del.level %} {{ del.level }} {% else %} Public {% endif %} <br>
-            {% if del.link %}<strong>DOI:</strong> <a href="{{ del.link }}">{{ del.link | replace:'https://doi.org/', '' }}</a><br>{% endif %}
+            {% if del.doi %}
+              <strong>DOI:</strong> <a href="https://doi.org/{{ del.doi }}">{{ del.doi }}</a><br>
+            {% else %}
+              {% if del.link %}<strong>DOI:</strong> <a href="{{ del.link }}">{{ del.link | replace:'https://doi.org/', '' }}</a><br>{% endif %}
+            {% endif %}
             {% if del.description %}<strong>Description:</strong> {{ del.description }}<br>{% endif %}
             <strong>Status:</strong> Delivered <strong>{% if del.status == 'delivered' %}but not yet{% else %}and{% endif %} approved</strong> by the European Commission
           </td>

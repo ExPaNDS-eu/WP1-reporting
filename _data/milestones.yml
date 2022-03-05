@@ -88,8 +88,7 @@
   date: 2021-08-24
   status: achieved
   wp: "3"
-  link: https://doi.org/10.5281/zenodo.5205909
-  img: https://zenodo.org/badge/DOI/10.5281/zenodo.5205909.svg
+  doi: 10.5281/zenodo.5205909
   comments: With the primary goal of supporting PaN FAIR data catalogue services, we have developed a self-contained, stand-alone metadata catalogue release that facilities can download to test and try locally. The code is available in <a href='https://github.com/SciCatProject/scicatlive'>this repository</a> and documented <a href='https://doi.org/10.5281/zenodo.5205909'>here</a>.
 
 - id: 13
@@ -98,7 +97,7 @@
   date: 2022-02-28
   status: achieved
   wp: "3"
-  comments: To increase the visibility of Photon and Neutron data in the researchers and EOSC community, we published the PSI data repository as an EOSC resource (https://marketplace.eosc-portal.eu/services/psi-public-data-repository). This will enable EOSC users to find the resource and redirect them to the PSI public data repository, where they will be able to browse published data.
+  comments: To increase the visibility of Photon and Neutron data in the researchers and EOSC community, we published the <a href='https://marketplace.eosc-portal.eu/services/psi-public-data-repository'>PSI data repository as an EOSC resource</a>. This will enable EOSC users to find the resource and redirect them to the PSI public data repository, where they will be able to browse published data.
 
 - id: 14
   name: Analysis services prototypes

@@ -57,11 +57,7 @@ Here all you need to know to maintain the site.
 ##### Back to GitHub
 1. In `/_data` open [`deliverables.yml`](/_data/deliverables.yml).
 2. Look for your deliverable, `id` being the deliverable number.
-3. Update its `link` and `img` properties using the links provided by Zenodo in `Target URL` and `Image URL`, respectively. Should be something like that:
-```
-  link: https://doi.org/10.5281/zenodo.xxxxxxx
-  img: https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg
-```
+3. Add its `doi` or if it has another PID type, add it using `link`.
 4. Update the `date` if needed to fit with the actual delivery date to the EC.
 5. Update the `status` to `delivered`.
 6. Add a `description`. Try to keep the same tone and length as the other deliverables' descriptions, that is: short and standalone.
@@ -82,11 +78,7 @@ Here all you need to know to maintain the site.
 4. Update the `date` if needed to fit with the actual achievement date.
 5. Update the `status` to `achieved`.
 6. Add in `comments` the justification, exactly as it was entered in the EC portal.
-3. (optional) Update its `link` and `img` properties using the links provided by Zenodo in `Target URL` and `Image URL`, respectively. Should be something like that:
-```
-  link: https://doi.org/10.5281/zenodo.xxxxxxx
-  img: https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg
-```
+3. (optional) Add its `doi` or if it has another PID type, add it using `link`.
 
 ### Case 4: update a progress report
 ##### Preliminary steps (off GitHub)
