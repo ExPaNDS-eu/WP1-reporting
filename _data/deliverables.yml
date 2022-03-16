@@ -189,8 +189,10 @@
 - id: 3.3
   name: Demonstrate ICAT and SciCat released with APIs compatible to ExPaNDS federated EOSC services
   partner: PSI
-  date: 2022-02-28
-  status: pending
+  date: 2022-03-16
+  status: delivered
+  doi: 10.5281/zenodo.6363591
+  description: Demonstration of the implementation and deployment of ICAT and SciCat with the full stack of PaN EOSC services i.e. the PaN federated search API service and the OAI-PMH interface
 
 - id: 3.4
   name:	Portfolio material to support training for target groups at all RIs
