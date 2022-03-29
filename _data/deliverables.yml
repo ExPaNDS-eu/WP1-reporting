@@ -225,11 +225,12 @@
   description: Framework for testing and validating ExPaNDS services against reference datasets 
 
 - id: 4.4
-  name: Analysis Services Prototypes
+  name: Analysis Services
   partner: SOLEIL
-  date: 2022-02-28
-  status: pending
+  date: 2022-03-28
+  status: delivered
   doi: 10.5281/zenodo.6305000
+  description: Status of the prototyped remote data analysis services for the national RI's 
 
 - id: 4.5
   name: Deployment of Analysis Services for EOSC within the EOSC-hub
