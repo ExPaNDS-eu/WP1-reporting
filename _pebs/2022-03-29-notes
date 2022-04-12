@@ -1,0 +1,79 @@
+---
+published: false
+attendees: "Patrick, Sophie, Brian, Nicolas, Alun, Carlo, Anton, Majid, Ana, Uwe, Kat, Paul"
+intro:
+"Patrick describes the status of the deliverables:
+<p>D4.4 is uploaded.
+<p>D3.4 is in good shape. A second reviewer is needed. Kat is going to review until mid of next week. 
+<p>D2.7 is in progress and will be ready end of May. Brian would like to review D2.7. 
+<p>D1.6 needs still some work, but the quality is really important here and we should not rush. 
+<p>Patrick is going to write an e-mail to the project officer to ask for the sponsoring of the McXTrace training session at SOLEIL and to ask about a 3-month extension of the FAIR assessment task (#36).
+<p>Kat reports that there are no news about the all-hands-meeting, but it should take place before november.
+<p>Ana had some difficulties to find a slot for the preparation meeting for the training. It is possible to use the slot from WP 4: 8th of April 10 a.m. Ana and Uwe have to meet before.
+"
+PaNOSC (was not part of the meeting, but was included afterwards):
+"Andy Goetz gave an update via e-mail:
+<p>PaNOSC received a long report from our PO on the 36M Periodic Report. It is +ve and acknowledges the good results from PaNOSC.
+<p>It includes some suggestions for changes which need to be implement before the final periodic report. 
+<p>We can share the report with the ExPaNDs PEB if you are interested.
+<p>There will be a 2 day face-2-face meeting of the PaNSOC search portal developers next week at the ESRF to discuss what still needs to be implemented and review the code for the future
+the draft text from the EU for calls in 2023-2024 includes a call for continuing the work of the clusters in some form. One idea is it could be an opportunity to work on a Data Commons for LEAPS but of course we need to discuss this in more depth together
+<p>Deliverable D3.3 on the Catalog Services has been submitted
+<p>PaNOSC will be presented at the SRI meeting on Thursday afternoon there are a number of events coming up which can be found on the
+<p>PaNOSC website:    https://www.panosc.eu/events/"
+
+status-quo:
+#WP1
+- "The following interim financial reports are still needed:
+<p>DESY
+<p>Elettra
+<p>MAX IV
+<p>PSI
+<p>SOLEIL
+<p>UKRI
+<p>Deadline is the 31st of March 2022. 
+"
+#WP2
+- "D2.7 and D2.6 are in progress.
+There will be a survey/consultation about the FAIR matrix, the workshop is planned end of May (with Abigail).
+"
+#WP3
+- "
+Carlo needs input for the D3.4 from DAPHNE, Anton will ask Brigitte for the missing document. 
+<p>Upcoming workshops: 
+<p>Differences of SciCat and ICat (4th April 2022)
+<p>UmbrellaID (May 2022)"
+#WP4
+- "The focus is more on visualisation than at the Jupyter notebook at the moment. 
+A WP4-WP5 meeting is planned on  the 08/04. This meeting aims to clarify the expectactions of EC and how WP5 could support WP4 activities (identify key materials to be posted to the platform and help WP4 to upload them, discuss WS/training that you need to organise to fulfill WP4 objectives and how these events can be showcased and promoted to EC with the support of WP5/6, submit you our ideas for WS/training ...)
+"
+#WP5
+- "WP5 is looking for new material for the training platform: Project partners, LEAPS, LENS, Hercules school…and encourages ExPANDS partners to upload materials on the platform or send the information to the WP5.
+There is a LEAPS and LENS workshop about NeXus, this information could be taken from the expands workshop about NeXus.
+"
+#WP6
+- "WP6 had an internal meeting and is working on three use cases (Covid, reflectometry and tomography). They prepare a roadmap. 
+There is an industry case study with ThermoFisher ongoing. 
+"
+
+aob: "04/04 and 05/04: EOSC France workshop (in French) online
+25th May: FAIR workshop
+21/08-26/08: IXS 2022
+"
+---
+
+    © 2022 GitHub, Inc.
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
