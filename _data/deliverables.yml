@@ -195,10 +195,12 @@
   description: Demonstration of the implementation and deployment of ICAT and SciCat with the full stack of PaN EOSC services i.e. the PaN federated search API service and the OAI-PMH interface
 
 - id: 3.4
-  name:	Portfolio material to support training for target groups at all RIs
+  name:	Portfolio material to support training for target groups at all Research Infrastructures (RIs)
   partner: PSI
-  date: 2022-03-31
-  status: pending
+  date: 2022-04-11
+  doi: 10.5281/zenodo.6390324
+  description: Description of the portfolio material to support training for four different target groups at all Research Infrastructures
+  status: delivered
 
 - id: 4.1
   name: Guidelines for implementing the national RI’s analysis services within the EOSC
