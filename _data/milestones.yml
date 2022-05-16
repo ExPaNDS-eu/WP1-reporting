@@ -103,7 +103,7 @@
   name: Analysis services prototypes
   partner: DESY
   date: 2022-02-28
-  status: pending
+  status: achieved
   wp: "4"
 
 - id: 15
@@ -112,6 +112,7 @@
   date: 2022-12-31
   status: pending
   wp: "4"
+  comments: Please refer to deliverable 4.4: "Data analysis services"
 
 - id: 16
   name: First (pilot) national training event organised and performed
