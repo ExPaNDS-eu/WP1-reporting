@@ -1,0 +1,49 @@
+---
+published: false
+attendees: "Patrick, Juliane, Brian, Abigail, Nicolas, Alun, Carlo, Anton, Majid, Antoine, Uwe, Kat, Paul"
+intro: "The f2f meeting must be planned. We will decide this evening if it takes place in June."
+
+f2f meeting: "<p>Patrick, Paul and Juliane started a document for collecting topics. Juliane will transfer the topics that were already submitted with the survey (from Kat and Nicoletta). 
+WP leaders, please check if there is anything else that we should discuss and enter people that you would like to meet there or that represent your work package.
+<p>The number of people attending from ExPaNDS is limited to 25. 
+<p>The meeting will be planned as a hybrid meeting.
+
+
+status-quo:
+#WP1
+- "<p>All <b>financial interim reports</b> from the partners have been obtained. We are underspending and have sent some questions to the facilities and are waiting for feedback. 
+<p>The <b>H2020 survey</b> of the EOSC Association was submitted on 29th April. 
+<p>Marta and Juliane are working on the PaN scenarios for <b>D1.6</b> (General architecture description in relation to the EOSC service). They need help from Majid and Paul. 
+"
+#WP2
+- "<p><b>D2.7</b> is being completed this week and will be ready for review. Reviewers are Kat, Patrick and Darren. 
+
+<p>The <b>FAIR assessment workshop</b> will take place on 6th July.
+
+<p>The kick off meeting for <b>D2.8</b> took place on 6th May."
+#WP3
+- "<p><b>UmbrellaID workshop</b> took place on 3rd May.
+
+<p>WP3 is helping other facilities with data catalogues and SciCat (e.g. DESY, SOLEIL)."
+#WP4
+- "<p>The last meetings were dedicated to other WP’s (eg. WP5 and WP2)
+
+<p>Next steps will be the 2f2 meeting in June and the VISA and SciCat workshops in July."
+#WP5
+- "<p>Ana encourages partners to upload relevant materials to the training platform (Materials - PaN Training Catalogue (ExPaNDS/PaNOSC) ((<a href='pan-training.eu'>pan-training.eu</a>)) or send them to the WP5 mailing list (wp5@expands.eu).
+
+<p>Joint presentation of the training platform at the <b>LEAPS/LENS IT group meeting</b> (09/05) by Uwe. Topics to clarify: 
+<p>Sustainability: is the platform sustainable? A suggestion was to have DOI’s for every training material. Is a YouTube link sustainable? 
+<p>Licenses: Who has the license when uploading a teaching video? Does the platform has the license or the speaker?
+"
+#WP6
+- "<p><b>D6.6</b> will be ready for review next week. 
+
+<p><b>The <b>senior level engagement</b> is ongoing and Patrick will go to Brussels to meet the LEAPS directors and make an interview with the help of a crew from Diamond. 
+
+<p><b>WP6 has ongoing meetings with WP1 and WP2, but needs to meet with WP3, WP4 and WP5. 
+"
+
+aob: "<p>Majid suggests to have an own icon on the EOSC market place for PaN. Patrick gives to consider that we do not have a logo for PaN in general. In the side bar search there is already a subitem “EOSC PaN”. Paul suggests to rename this into “PaN”. He will contact the EOSC market place. 
+"
+---
