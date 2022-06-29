@@ -324,8 +324,10 @@
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
   date: 2022-04-30
-  status: pending
-
+  status: delivered
+  doi: 10.5281/zenodo.6683568
+  description: Summarized overview of the events in 2022
+  
 - id: 6.07
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
