@@ -156,7 +156,9 @@
   name: Final Recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
   date: 2022-05-31
-  status: pending
+  status: delivered
+  doi: 10.5281/zenodo.6799106
+  description: Pursuing the work initiated in ExPaNDS deliverable 2.2, which established a common metadata framework for FAIR data generated in Photon and Neutron (PaN) facilities
 
 - id: 2.8
   name: Active DMPs for Photon and Neutron RIs
