@@ -1,0 +1,53 @@
+---
+attendees: "Juliane, Abigail, Nicolas, Anton, Majid, Ana, Antoine, Isabelle, Kat, Andy, Paul"
+intro: "Deliverables will be discussed during the status quo per WP.
+<p>A “Science Clusters” collaboration workshop took place in Brussels. It was about future calls. Andy said that PaNOSC and ExPaNDS have to decide if they want to be part of it. The importance for the community is clear. But we still need to convince the top management of the facilities to include data management.
+Three calls are interesting for us: 
+EOSC-01-01: all clusters to be involved, 18 Mio. € to fund smaller projects from the community, 1 Mio. € per project, could be shared by two communities.
+EOSC-01-02: enabling FAIR and EOSC ecosystem. 
+EOSC-01-03: tracking scientific knowledge. 
+These future calls will be discussed in the next PMC meeting of PaNOSC and the facilities should decide if they want to be part of them.
+
+An EOSC association meeting has taken place. It was about how EOSC will work with the clusters and how to bring EOSC forward, because it is still not clear, what the EOSC is. Andy wants to work as a community, because projects have a rather short lifetime. Majid asked if we can act under an umbrella to make us more visible for EOSC. But Andy remarks, that our facilities are not equipped enough. Nearly no facility has created a permanent job for data management. 
+Isabelle reports that the Oxford university has opened an office in Berlin to be still part of the EU projects. Also Diamond is thinking about this possibility.
+
+D4.3 (Remote desktop and Jupyter analysis service deployed at EOSC) deliverable is going to be finished in the next weeks. 
+"
+
+status-quo:
+#WP1
+- "Patrick, Paul and Juliane discussed the recommendations of the last review and had a look on what must be done until the end of the project. Juliane needs to sort the recommendations and will contact the WP leaders in case of any questions. 
+"
+#WP2
+- "D2.7 is ready, Kat will upload it to Zenodo and Juliane will upload it to the EU portal. 
+
+The template of the FAIR assessment deliverable will be discussed in a workshop on 07/07 with all survey coordinators of the partner facilities. "
+#WP3
+- "Nothing to report.
+"
+#WP4
+- "Majid reports about the VISA workshop, which is being organised at the moment (see WP5). 
+D1.6 was reviewed and there is a final meeting on 08/07.
+"
+#WP5
+- "Ana encourages partners to upload relevant materials to the training platform  (Materials - PaN Training Catalogue (ExPaNDS/PaNOSC) (pan-training.eu)) or send them to the WP5 mailing list (wp5@expands.eu).
+
+The organising committee of the VISA workshop had their first meeting, where they planned the first draft of the agenda. It will be an online meeting with a short introduction of both projects (PaNOSC and ExPaNDS). Afterwards WP4 of ExPaNDS will be introduced and two demos will be presented (DESY, ILL). The main audience are the beamline scientists. Another session will be open to everybody and the VISA deployment (DESY, ESRF, XFEL, SOLEIL) will be shown. ILL is going to talk about the development and future collaborations. At the end of the workshop there will be a round table about the sustainability of VISA. 
+Majid reckons that the most important part of the workshop is the message to the directors, to roll out VISA. 
+Paul suggests to do a hands on session on good technique. This is needed by everyone with a working VISA portal. 
+VISA is a remote data analysis platform that has been adopted in the PaNOSC project. Jamie Hall was the main developer. 
+"
+#WP6
+- "The senior engagement deliverable D6.24 is ongoing. Two videos with Andrew Harrison (DIAMOND) and Roger Eccleston (ISIS) are ready. Three more videos are planned. We have to make sure that the directors and the top management are aware of the open data management to generate enough resources inside the facilities. 
+
+Isabelle also reports about some use cases. For example a tomography on the char of a walnut, which can be used in filters for capturing antibiotics. Furthermore there is a use case with Thermo Fisher, which is not open source, but can lead to potental services from the industry.
+
+WP6 and WP1 are going to start the planning for the user meeting in Brussels, where we want to present use cases. Isabelle and Kat ask for use cases to present and also to participate in the organising committee.
+Abigail asked if we can use the use cases for the DMP task (D2.8) that Heike is working on. Isabelle suggests to talk to Elliot and Alejandra.
+Ana asked if the training platform is also part of the plan for the user meeting. Isabelle agreed that this topic is important and WP6 is looking forward to input. 
+Andy remarks that we have to clarify for every use case why it is an EOSC demo.
+"
+
+aob: "Nothing to report.
+"
+---
