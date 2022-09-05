@@ -276,7 +276,9 @@
   name: Dedicated websites and e-platforms with the teaching material
   partner: SOLEIL
   date: 2022-08-31
-  status: pending
+  status: delivered
+  description: The joint PaN training portal has been developed and deployed to provide both a training material and events catalogue (ExPaNDS) as well as an integrated e-learning system (PaNOSC) under the domain <a href='http://pan-training.eu'>pan-training.eu</a>
+  doi: 10.5281/zenodo.7023247
 
 - id: 5.6
   name: Report on lessons learned and future prospects for adopting best practices
