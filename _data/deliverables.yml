@@ -262,7 +262,9 @@
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
   date: 2022-08-31
-  status: pending
+  status: delivered
+  description: Overview of training activities performed in the third year of the project and of the updated training plan.
+  doi: https://doi.org/10.5281/zenodo.7022922
 
 - id: 5.4
   name: Demonstrator for using of e-learning platforms
