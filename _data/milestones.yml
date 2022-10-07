@@ -125,9 +125,10 @@
 - id: 17
   name: Training websites and e-platforms online available
   partner: SOLEIL
-  date: 2022-10-31
-  status: pending
+  date: 2022-09-27
+  status: achieved
   wp: "5"
+  comments: Please refer to deliverable 5.4 "<a href='https://doi.org/10.5281/zenodo.5171766'>Demonstrator for using e-learning platforms for PaN</a>".
 
 - id: 18
   name: Website
