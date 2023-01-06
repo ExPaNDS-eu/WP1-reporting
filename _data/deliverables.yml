@@ -104,7 +104,7 @@
   date: 2022-12-31
   level: Confidential
   description: Total cumulative expenditure of ExPaNDS partners on the project up to the 31.12.2022.
-  status: pending
+  status: delivered
 
 - id: 2.1
   name: Draft extended data policy framework for Photon and Neutron RIs
@@ -165,8 +165,10 @@
 - id: 2.8
   name: Active DMPs for Photon and Neutron RIs
   partner: HZB
-  date: 2022-11-30
-  status: pending
+  date: 2022-12-21
+  status: delivered
+  doi: 10.5281/zenodo.7223438
+  description: Introducing a data model for aDMPs focusing on the integration of information that exists before a proposal is submitted
 
 - id: 2.9
   name: Report on promotion of FAIR data within Photon and Neutron RIs
@@ -241,8 +243,10 @@
 - id: 4.5
   name: Deployment of Analysis Services for EOSC within the EOSC-hub
   partner: DESY
-  date: 2022-12-31
-  status: pending
+  date: 2022-12-30
+  status: delivered
+  doi: 10.5281/zenodo.7417726
+  description: Establishment of portable, facility independent data analysis services for five real-world use cases, training material for operation of services, and harmonisation with related past and future initiatives.
 
 - id: 5.1
   name: Annual report on training activities, workshops held, materials published and investigations performed
