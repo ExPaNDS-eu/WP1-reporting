@@ -344,7 +344,9 @@
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
   date: 2022-12-31
-  status: pending
+  status: delivered
+  doi: 10.5281/zenodo.7464347
+  description: Update of summarized overview of the events in 2022
 
 - id: 6.08
   name: ExPaNDS presentation for conferences
@@ -455,7 +457,9 @@
   name: PaN communities use cases
   partner: Diamond
   date: 2022-12-31
-  status: pending
+  status: delivered
+  doi: 10.5281/zenodo.7494491
+  description: Showing the different use cases identified among Photon and Neutron (PaN) facilities by ExPaNDs during the grant period.
   
 - id: 1.71
   name: POPD - Requirement No. 1
