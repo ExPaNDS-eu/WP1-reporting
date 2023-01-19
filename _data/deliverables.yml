@@ -101,7 +101,7 @@
 - id: 1.14
   name: Financial report 3
   partner: DESY
-  date: 2022-12-31
+  date: 2022-12-30
   level: Confidential
   description: Total cumulative expenditure of ExPaNDS partners on the project up to the 31.12.2022.
   status: delivered
@@ -157,7 +157,7 @@
 - id: 2.7
   name: Final Recommendations for FAIR Photon and Neutron Data Management
   partner: ALBA
-  date: 2022-05-31
+  date: 2022-07-11
   status: delivered
   doi: 10.5281/zenodo.6799106
   description: Pursuing the work initiated in ExPaNDS deliverable 2.2, which established a common metadata framework for FAIR data generated in Photon and Neutron (PaN) facilities
@@ -267,7 +267,7 @@
 - id: 5.3
   name: Annual report on training activities, workshops held, materials published and investigations performed
   partner: SOLEIL
-  date: 2022-08-31
+  date: 2022-09-16
   status: delivered
   description: Overview of training activities performed in the third year of the project and of the updated training plan.
   doi: 10.5281/zenodo.7022922
@@ -283,7 +283,7 @@
 - id: 5.5
   name: Dedicated websites and e-platforms with the teaching material
   partner: SOLEIL
-  date: 2022-08-31
+  date: 2022-09-16
   status: delivered
   description: The joint PaN training portal has been developed and deployed to provide both a training material and events catalogue (ExPaNDS) as well as an integrated e-learning system (PaNOSC) under the domain <a href='http://pan-training.eu'>pan-training.eu</a>
   doi: 10.5281/zenodo.7023247
@@ -297,7 +297,7 @@
 - id: 6.01
   name: Communication and Dissemination Plan
   partner: Diamond
-  date: 2019-11-30
+  date: 2019-11-29
   description: The strategy defines an integrated approach to communication throughout the project and efforts will be scheduled around the work packages, once core communication channels have been established and reach the main audiences.
   doi: 10.5281/zenodo.4714675
   status: accepted
@@ -305,14 +305,14 @@
 - id: 6.02
   name: Project website
   partner: Diamond
-  date: 2019-11-30
+  date: 2019-11-29
   description: "<a href='https://expands.eu'>expands.eu</a>"
   status: accepted
 
 - id: 6.03
   name: Social media strategy
   partner: Diamond
-  date: 2019-11-30
+  date: 2019-11-29
   doi: 10.5281/zenodo.4714909
   status: accepted
 
@@ -335,7 +335,7 @@
 - id: 6.06
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
-  date: 2022-04-30
+  date: 2022-06-23
   status: delivered
   doi: 10.5281/zenodo.6683568
   description: Summarized overview of the events in 2022
@@ -343,7 +343,7 @@
 - id: 6.07
   name: ExPaNDS representation material for relevant large international conferences
   partner: Diamond
-  date: 2022-12-31
+  date: 2022-12-30
   status: delivered
   doi: 10.5281/zenodo.7464347
   description: Update of summarized overview of the events in 2022
@@ -369,7 +369,7 @@
 - id: 6.11
   name: ExPaNDS presentation for conferences
   partner: Diamond
-  date: 2021-07-09
+  date: 2021-08-09
   status: delivered
 
 - id: 6.12
@@ -394,7 +394,7 @@
 - id: 6.17
   name: Standard Information sheet on ExPaNDS and the benefits of Open Data for RI users
   partner: Diamond
-  date: 2020-04-30
+  date: 2020-04-29
   description: ExPaNDS second infographics about 'The Benefit of Open Data'.
   doi: 10.5281/zenodo.3780053
   status: accepted
@@ -402,7 +402,7 @@
 - id: 6.18
   name: Infographic of metrics and KPI linked to WP2, 3 and 4
   partner: Diamond
-  date: 2020-02-29
+  date: 2020-02-28
   doi: 10.5281/zenodo.3757786
   status: accepted
 
@@ -425,7 +425,7 @@
 - id: 6.21
   name: Promotional video
   partner: Diamond
-  date: 2021-10-29
+  date: 2021-06-02
   status: delivered
   description: An <a href='https://vimeo.com/637958452'>8-minutes ExPaNDS video on FAIR data for Photon and Neutron science</a>, with beautiful aerial images of our members facilities, starring senior scientists and project members. 
   doi: 10.5281/zenodo.5616785
@@ -456,7 +456,7 @@
 - id: 6.25
   name: PaN communities use cases
   partner: Diamond
-  date: 2022-12-31
+  date: 2022-12-30
   status: delivered
   doi: 10.5281/zenodo.7494491
   description: Showing the different use cases identified among Photon and Neutron (PaN) facilities by ExPaNDs during the grant period.
