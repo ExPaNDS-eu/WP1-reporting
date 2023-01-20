@@ -103,7 +103,7 @@
 - id: 14
   name: Analysis services prototypes
   partner: DESY
-  date: 2022-02-28
+  date: 2022-03-28
   status: achieved
   wp: "4"
   comments: 'Please refer to deliverable 4.4: "Data analysis services"'
@@ -194,7 +194,7 @@
 - id: 26
   name: Ambassador engagement from all facilities user community
   partner: Diamond
-  date: 2022-07-31
+  date: 2022-09-01
   status: achieved
   wp: "6"
   
