@@ -106,7 +106,7 @@
   date: 2022-03-28
   status: achieved
   wp: "4"
-  comments: 'Please refer to deliverable 4.4: "Data analysis services"'
+  comments: Please refer to deliverable 4.4 "<a href='https://doi.org/10.5281/zenodo.6305000'>Data analysis services</a>"
 
 - id: 15
   name: Analysis services for EOSC
@@ -114,7 +114,7 @@
   date: 2022-12-30
   status: achieved
   wp: "4"
-  comments: Milestone achieved by delivering 4.5.
+  comments: Milestone achieved by delivering 4.5 "<a href='https://doi.org/10.5281/zenodo.7417726'>Deployment of Analysis Services for EOSC</a>".
   
 - id: 16
   name: First (pilot) national training event organised and performed
@@ -197,6 +197,7 @@
   date: 2022-09-01
   status: achieved
   wp: "6"
+  comments: Communication offices by a dedicated ambassador programme. Within this programme we selected ambassadors, dedicated expert staff members of the facilities with connection both to local scientists as well as to management. We keep these ambassadors up to date on our achievements and special events. In addition, we consider their feedback when planning our future work. Currently, the programme includes at least one expert at ISIS, BESSY II, FIGARO at ILL, Petra III, the Swiss Light Source, Oak Ridge National Lab, MSPD-BL04 at ALBA, ESRF, Soleil and Elettra. 
   
 - id: 27
   name: Standard ExPaNDS information sheet
