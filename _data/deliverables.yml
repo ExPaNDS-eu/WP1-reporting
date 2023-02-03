@@ -174,7 +174,9 @@
   name: Report on promotion of FAIR data within Photon and Neutron RIs
   partner: UKRI
   date: 2023-01-31
-  status: pending
+  status: delivered
+  doi: 10.5281/zenodo.7572045
+  description: Summary of  promotional activities undertaken across the project and discussion on the likely impact of the work of work package 2 on the wider ExPaNDS partner community.
 
 - id: 3.1
   name: Report on status, gap analysis and roadmap towards harmonised and federated metadata catalogues for EU national Photon and Neutron RIs
