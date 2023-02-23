@@ -294,7 +294,9 @@
   name: Report on lessons learned and future prospects for adopting best practices
   partner: HZDR
   date: 2023-01-31
-  status: pending
+  status: delivered
+  description: This final document reports the work done on data FAIR principles, data management and data stewardship at the ExPaNDS RIs and in the PaN community at large.
+  doi: 10.5281/zenodo.7642688
 
 - id: 6.01
   name: Communication and Dissemination Plan
