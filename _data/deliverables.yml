@@ -63,8 +63,10 @@
 - id: 1.09
   name: Periodic progress report
   partner: DESY
-  date: 2023-02-28
-  status: pending
+  date: 2023-05-03
+  status: delivered
+  description: Description of the work done by the ExPaNDS project during its second and final reporting period, from 03/2021 to 02/2023.
+  doi: 10.5281/zenodo.7890361
 
 - id: 1.10
   name: Data Management Plan
@@ -293,9 +295,9 @@
 - id: 5.6
   name: Report on lessons learned and future prospects for adopting best practices
   partner: HZDR
-  date: 2023-01-31
+  date: 2023-02-20
   status: delivered
-  description: This final document reports the work done on data FAIR principles, data management and data stewardship at the ExPaNDS RIs and in the PaN community at large.
+  description: This final document reports the work done in education and training on data FAIR principles, data management and data stewardship at the ExPaNDS RIs and in the PaN community at large.
   doi: 10.5281/zenodo.7642688
 
 - id: 6.01
